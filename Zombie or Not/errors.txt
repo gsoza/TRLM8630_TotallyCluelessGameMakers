@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label park is defined twice, at File "game/script.rpy", line 87:
+label park:
+and File "game/script.rpy", line 167:
+label park:
+
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Mon May  9 14:51:06 2022

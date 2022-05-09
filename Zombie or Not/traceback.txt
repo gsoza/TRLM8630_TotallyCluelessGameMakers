@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 166, in script
+    jump destination_choice2
+ScriptError: could not find label 'destination_choice2'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 166, in script
+    jump destination_choice2
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'destination_choice2'.
+
+Darwin-21.4.0-x86_64-i386-64bit
+Ren'Py 7.4.11.2266
+Zombie or Not 1.0
+Mon May  9 14:52:34 2022
