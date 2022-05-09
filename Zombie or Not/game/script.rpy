@@ -45,7 +45,7 @@ label start:
     $ name = renpy.input("What is your name?")
     $ name = name.strip() or "Gary"
     $ pet = renpy.input("What is the last thing you ate?")
-    $ pet = pet.strip() or "Cheeseburger"
+    $ pet = pet.strip() or "Vitamin D"
 
     play music "audio/stairs-into-the-unknown-dark-piano-music-1497.mp3"
     n "Two years have passed, since Covid-57 struck the nation."
