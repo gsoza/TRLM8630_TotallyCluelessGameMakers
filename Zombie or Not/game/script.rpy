@@ -96,6 +96,7 @@ label start:
 
 label middle:
     stop music fadeout 2.0
+    stop sound
     scene apartmentExterior
     menu :
          "Check the Park":
@@ -117,7 +118,7 @@ label middle:
 label park:
     scene park
 
-    play music "audio/urban.wav"
+    play music "audio/urban.mp3"
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -153,12 +154,12 @@ label park:
 
 label searchPark:
     scene park
-    play music "audio/urban.wav"
     show zombie at slightright
     "Where should I look?"
     menu search:
         "Behind the tree":
             show dog at slightleft
+            play sound "audio/woof.mp3"
             "The dog is here! Let's go find the little girl"
             jump foundDog
         "Behind the bush":
@@ -173,6 +174,7 @@ label foundDog:
     show zombie at slightright
     show flipdog at slightright
     show sadGirl at slightleft
+    play sound "audio/panting.mp3"
     g "You found him! Thank you so much! Here, take this."
     "You got {b}loose change: $0.69{/b}"
     $ items.append("change")
