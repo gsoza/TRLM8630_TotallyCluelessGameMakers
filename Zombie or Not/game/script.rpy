@@ -80,7 +80,7 @@ label start:
     n "The world was no longer a friendly place, and the very thought of seeing people..."
     n "..."
     n "6 months have passed since the lockdown was lifted."
-    n "However, [name] did not dare step outside the front door, but instead remained within the walls of the apartment, only with [pet] to keep him company."
+    n "However, [name] did not dare step outside the front door, but instead remained within the walls of the apartment, only with [pet] as company."
     n "Little did [name] know, all of this was about to change..."
 
     scene bedroom
