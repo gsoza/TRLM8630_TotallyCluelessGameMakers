@@ -80,13 +80,13 @@ label start:
     n "The world was no longer a friendly place, and the very thought of seeing people..."
     n "..."
     n "6 months have passed since the lockdown was lifted."
-    n "However, [name] did not dare step outside the front door, but instead remained within the walls of his home, only his mother and pet [pet] to keep him company."
+    n "However, [name] did not dare step outside the front door, but instead remained within the walls of the apartment, only with [pet] to keep him company."
     n "Little did [name] know, all of this was about to change..."
 
     scene bedroom
     with fade
 
-    n "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have your mother, do not try and find her...if you ever want to see her again, follow these instructions:"
+    n "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:"
     n "1. Go to LOCATION and retrieve the briefcase in the locker 420
     \n2. Bring this item with all of its contents to this location ADDRESS
     \n3. Do not delay"
