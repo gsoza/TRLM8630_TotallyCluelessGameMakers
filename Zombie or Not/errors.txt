@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 192: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-                v "Well I'll be right here if you {i}change{/i} your mind.
+File "game/script.rpy", line 243: end of line expected.
+    n "It was at that moment...he knew he fucked up":
+                                                    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon May  9 20:48:10 2022
+Mon May  9 21:46:19 2022

@@ -11,7 +11,9 @@ define g = Character("Sad Girl")
 define dog = Character("Dog")
 define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5)
 define v = Character("Vending Machine")
+define a = Character("Locker Attendant")
 define items = []
+define locker =Character("Locker")
 
 image zombie = "zombie.png"
 image barista = "barista.png"
@@ -24,6 +26,9 @@ image dog = "Lost-doggie.png"
 image flipdog = Transform("Lost-doggie.png", xzoom=-1)
 image street = "Street.png"
 image vending = Transform("vending.png", xzoom=-1)
+image bedroom = "bedroom.png"
+image locker = "rick.png"
+image station = "trainstation.png"
 
     # background images
 image coffee = "coffee.png"
@@ -77,8 +82,8 @@ label start:
     n "6 months have passed since the lockdown was lifted."
     n "However, [name] did not dare step outside the front door, but instead remained within the walls of his home, only his mother and pet [pet] to keep him company."
     n "Little did [name] know, all of this was about to change..."
-label middle:
-    scene apartmentExterior
+
+    scene bedroom
     with fade
 
     n "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have your mother, do not try and find her...if you ever want to see her again, follow these instructions:"
@@ -86,16 +91,17 @@ label middle:
     \n2. Bring this item with all of its contents to this location ADDRESS
     \n3. Do not delay"
     stop music fadeout 3.0
-
-
     $ showitems = True
+
+label middle:
+    scene apartmentExterior
     menu :
          "Check the Park":
              jump park
          "Head down the street":
              jump street
-         #"Go to the locker":
-        #     jump locker
+         "Go to the locker":
+             jump locker
 
     #label destination_choice1:
         #jump coffeeShop
@@ -186,7 +192,7 @@ label street:
                 jump vending
             else:
                 $ items.remove("change")
-                v "MMMMM, DELICIOUS, LOOSE CHANGE.🤤😏 Here, take this."
+                v "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
                 "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
                 $ items.append("key")
                 z "But...what about my drink..."
@@ -196,6 +202,58 @@ label street:
         "I wish I could":
             v "Well I'll be right here if you {i}change{/i} your mind."
             jump middle
+
+label locker:
+    scene station
+    show zombie at slightright
+    show locker at slightleft
+    z "Okay, I made it to the locker. Let's get this over with"
+    menu openLocker:
+        "Insert key":
+            if "key" not in items:
+                z "Uh, I don't have anything to open this with"
+                jump openLocker
+            else:
+                jump lockerTalk
+        "Leave":
+            jump middle
+
+label lockerTalk:
+    locker "Hey kid, what's the big idea? You trying to stick some random junk in me? Buy me dinner first!"
+    z "...Another talking object"
+    menu lockerResponse:
+        "F*ck this sh*t, I'm out":
+            jump gameOver
+        "That's cool.":
+            locker "meh, another day then."
+            jump openLocker
+        "Will you let me stick this key in you and get the breifcase?":
+            locker "You kiddin' me? Do I look like I got a keyhole? Kids these days, gotta tell 'em how to do everything I tell ya."
+            menu:
+                "Dude, you're a dick":
+                    jump gameOver
+                "Ok, what should I do then?":
+                    jump explain
+                "I don't know what a keyhole looks like":
+                    jump explain
+            label explain:
+                locker "Alright alright, I'll help ya out kid. It's easy. Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
+                z "Ok, here goes."
+                scene station
+                show barista at slightleft
+                show zombie at slightright
+                a "Hiya! How can I help you?"
+                menu attendant:
+                    "Will you marry me?":
+                        n "It was at that moment...he knew he fucked up"
+                        jump gameOver
+                    "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?":
+                        jump combination
+                    "GIMME THE F*CKING LOCKER COMBINATION":
+                        n "That was intense"
+                        jump gameOver
+
+
 
     label choice1_semi:
         b "Hmm, let’s get you caffeinated."
