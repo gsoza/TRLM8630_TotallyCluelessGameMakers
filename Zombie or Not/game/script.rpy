@@ -10,6 +10,7 @@ define p = Character("[pet]")
 define g = Character("Sad Girl")
 define dog = Character("Dog")
 define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5)
+define items = []
 
 image zombie = "zombie.png"
 image barista = "barista.png"
@@ -26,7 +27,20 @@ image coffee = "coffee.png"
 image outside = "City_Afternoon.png"
 
 
+init python:
+    showitems = False
 
+    def display_items_overlay():
+        if showitems:
+            inventory_show = "Inventory: "
+            for i in range(0, len(items)):
+                item_name = items[i].title()
+                if i > 0:
+                    inventory_show += ", "
+                inventory_show += item_name
+            ui.frame()
+            ui.text(inventory_show)
+    config.overlay_functions.append(display_items_overlay)
 
 transform slightleft:
     xalign 0.25
@@ -70,6 +84,7 @@ label start:
     stop music fadeout 3.0
 
     label middle:
+    $ showitems = True
     menu :
          "Check the Park":
              jump park
@@ -144,6 +159,9 @@ label foundDog:
     show zombie at slightright
     show flipdog at slightright
     show sadGirl at slightleft
+    g "You found him! Thank you so much! Here, take this."
+    "You got {b}loose change: $0.69{/b}"
+    $ items.append("change")
     menu:
         "Need…coffee…*groan*":
             jump choice1_semi
