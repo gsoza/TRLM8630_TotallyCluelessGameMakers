@@ -8,6 +8,7 @@ define c = Character("Cop")
 define h = Character("Hobo")
 define p = Character("[pet]")
 define g = Character("Sad Girl")
+define dog = Character("Dog")
 define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5)
 
 image zombie = "zombie.png"
@@ -17,6 +18,8 @@ image apartmentExterior = "Apartment_exterior.png"
 image park = "park.png"
 image hobo = "hobo.png"
 image sadGirl = "sad_girl.png"
+image dog = "Lost-doggie.png"
+image flipdog = Transform("Lost-doggie.png", xzoom=-1)
 
     # background images
 image coffee = "coffee.png"
@@ -123,8 +126,24 @@ label park:
 label searchPark:
     scene park
     show zombie at slightright
+    "Where should I look?"
+    menu search:
+        "Behind the tree":
+            show dog at slightleft
+            "The dog is here! Let's go find the little girl"
+            jump foundDog
+        "Behind the bush":
+            "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
+            jump search
+        "Under a rock":
+            "There's a beetle! But...that's not a dog"
+            jump search
 
-
+label foundDog:
+    scene park
+    show zombie at slightright
+    show flipdog at slightright
+    show sadGirl at slightleft
     menu:
         "Need…coffee…*groan*":
             jump choice1_semi
