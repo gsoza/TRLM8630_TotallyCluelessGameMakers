@@ -1,26 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 66, in script
-    $ change == False
-  File "game/script.rpy", line 66, in <module>
-    $ change == False
-NameError: name 'change' is not defined
+  File "game/script.rpy", line 98, in script
+    jump locker
+ScriptError: could not find label 'locker'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 66, in script
-    $ change == False
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 66, in <module>
-    $ change == False
-NameError: name 'change' is not defined
+  File "game/script.rpy", line 98, in script
+    jump locker
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'locker'.
 
 Darwin-21.4.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
 Zombie or Not 1.0
-Mon May  9 20:03:12 2022
+Mon May  9 20:58:58 2022

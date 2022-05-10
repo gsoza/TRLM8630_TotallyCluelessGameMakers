@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label park is defined twice, at File "game/script.rpy", line 87:
-label park:
-and File "game/script.rpy", line 167:
-label park:
-
+File "game/script.rpy", line 192: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+                v "Well I'll be right here if you {i}change{/i} your mind.
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon May  9 14:51:06 2022
+Mon May  9 20:48:10 2022

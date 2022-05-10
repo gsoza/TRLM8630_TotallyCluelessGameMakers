@@ -10,6 +10,7 @@ define p = Character("[pet]")
 define g = Character("Sad Girl")
 define dog = Character("Dog")
 define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5)
+define v = Character("Vending Machine")
 define items = []
 
 image zombie = "zombie.png"
@@ -21,6 +22,8 @@ image hobo = "hobo.png"
 image sadGirl = "sad_girl.png"
 image dog = "Lost-doggie.png"
 image flipdog = Transform("Lost-doggie.png", xzoom=-1)
+image street = "Street.png"
+image vending = Transform("vending.png", xzoom=-1)
 
     # background images
 image coffee = "coffee.png"
@@ -74,6 +77,7 @@ label start:
     n "6 months have passed since the lockdown was lifted."
     n "However, [name] did not dare step outside the front door, but instead remained within the walls of his home, only his mother and pet [pet] to keep him company."
     n "Little did [name] know, all of this was about to change..."
+label middle:
     scene apartmentExterior
     with fade
 
@@ -83,15 +87,15 @@ label start:
     \n3. Do not delay"
     stop music fadeout 3.0
 
-    label middle:
+
     $ showitems = True
     menu :
          "Check the Park":
              jump park
          "Head down the street":
              jump street
-         "Go to the locker":
-             jump locker
+         #"Go to the locker":
+        #     jump locker
 
     #label destination_choice1:
         #jump coffeeShop
@@ -162,13 +166,36 @@ label foundDog:
     g "You found him! Thank you so much! Here, take this."
     "You got {b}loose change: $0.69{/b}"
     $ items.append("change")
-    menu:
-        "Need…coffee…*groan*":
-            jump choice1_semi
-        "One bloody chai, please":
-            jump choice1_zombie
-        "I'll have a vanilla oat decaf quadruple shot mocha frappuccino.":
-            jump choice1_human
+    jump middle
+
+label street:
+    scene street
+    show zombie at slightright
+    z "Man, it's so hot today, I could really use a drink right now..."
+    z "Oh look, a vending machine, perfect!"
+    show vending at left
+    v "Spare some change?"
+
+    menu vending:
+        "Holy sh*t, a talking vending machine! Stay away from me":
+            v "Wow, that was rude."
+            jump gameOver
+        "Sure, but this is all I have":
+            if "change" not in items:
+                "what is this a trick? it's just your hand. Got any {i}actual{/i} change??"
+                jump vending
+            else:
+                $ items.remove("change")
+                v "MMMMM, DELICIOUS, LOOSE CHANGE.🤤😏 Here, take this."
+                "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
+                $ items.append("key")
+                z "But...what about my drink..."
+                v "..."
+                z "oh well"
+                jump middle
+        "I wish I could":
+            v "Well I'll be right here if you {i}change{/i} your mind."
+            jump middle
 
     label choice1_semi:
         b "Hmm, let’s get you caffeinated."
