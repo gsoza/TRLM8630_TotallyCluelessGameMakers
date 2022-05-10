@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 243: end of line expected.
-    n "It was at that moment...he knew he fucked up":
-                                                    ^
+File "game/script.rpy", line 39: invalid syntax
+    $ items = items.clear()
+     ^
+    
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon May  9 21:46:19 2022
+Tue May 10 09:22:21 2022

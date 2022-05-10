@@ -1,22 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 242, in script
-    barista "Hiya! How can I help you?"
-Exception: Sayer 'barista' is not defined.
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 388, in script
+    with None
+  File "game/script.rpy", line 41, in display_items_overlay
+    if showitems:
+NameError: global name 'showitems' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 242, in script
-    barista "Hiya! How can I help you?"
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 681, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 574, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'barista' is not defined.
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 388, in script
+    with None
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 1443, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/exports.py", line 1684, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 2755, in do_with
+    self.with_none()
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 2777, in with_none
+    self.compute_overlay()
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 2920, in compute_overlay
+    i()
+  File "game/script.rpy", line 41, in display_items_overlay
+    if showitems:
+NameError: global name 'showitems' is not defined
 
 Darwin-21.4.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
 Zombie or Not 1.0
-Mon May  9 21:51:47 2022
+Tue May 10 09:25:16 2022
