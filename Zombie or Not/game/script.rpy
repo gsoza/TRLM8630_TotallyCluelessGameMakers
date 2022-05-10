@@ -94,6 +94,7 @@ label start:
     $ showitems = True
 
 label middle:
+    stop music fadeout 2.0
     scene apartmentExterior
     menu :
          "Check the Park":
@@ -138,7 +139,8 @@ label park:
 
     label sadGirlChoice_rude:
         g "You big meanie"
-        jump gameOver
+        n "That was a pretty jerk move, come back when you learn not to bully little girls."
+        jump middle
 
     label sadGirlChoice_good:
         g "You're so nice!"
@@ -150,6 +152,7 @@ label park:
 
 label searchPark:
     scene park
+    play music "audio/urban.wav"
     show zombie at slightright
     "Where should I look?"
     menu search:
@@ -185,7 +188,8 @@ label street:
     menu vending:
         "Holy sh*t, a talking vending machine! Stay away from me":
             v "Wow, that was rude."
-            jump gameOver
+            n "Vending machines are people too...sorta...anyway be nice."
+            jump middle
         "Sure, but this is all I have":
             if "change" not in items:
                 "what is this a trick? it's just your hand. Got any {i}actual{/i} change??"
@@ -223,7 +227,9 @@ label lockerTalk:
     z "...Another talking object"
     menu lockerResponse:
         "F*ck this sh*t, I'm out":
-            jump gameOver
+            play music "audio/fuck.mp3"
+            n "yeah you gangsta, now come back when you wanna play nice"
+            jump middle
         "That's cool.":
             locker "meh, another day then."
             jump openLocker
@@ -256,6 +262,7 @@ label lockerTalk:
 label combination:
     n "yay you got the thing and everyone dies, how bout some coffee?"
     scene coffee
+    play music "audio/coffee.mp3"
     show barista at slightleft
     show zombie at slightright
     b "Hi, welcome to Zombucks, how can I help you?"
