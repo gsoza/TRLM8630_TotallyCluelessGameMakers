@@ -16,12 +16,13 @@ define items = []
 define locker =Character("Locker")
 
 image zombie = "zombie.png"
+image protagonist = "protagonist.png"
 image barista = "barista.png"
 image cop = "police.png"
 image apartmentExterior = "Apartment_exterior.png"
 image park = "park.png"
 image hobo = "hobo.png"
-image sadGirl = "sad_girl.png"
+image sadGirl = Transform("sad_girl.png", xzoom=-1)
 image dog = "Lost-doggie.png"
 image flipdog = Transform("Lost-doggie.png", xzoom=-1)
 image street = "Street.png"
