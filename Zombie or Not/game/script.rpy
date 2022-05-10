@@ -253,56 +253,41 @@ label lockerTalk:
                         n "That was intense"
                         jump gameOver
 
+label combination:
+    n "yay you got the thing and everyone dies, how bout some coffee?"
+    scene coffee
+    show barista at slightleft
+    show zombie at slightright
+    b "Hi, welcome to Zombucks, how can I help you?"
+    z "Didn't I just see you at...uh...nevermind"
+    menu drinkchoice:
+        "Need…coffee…*groan*":
+            b "Hmm, let’s get you caffeinated."
+            z "Caffeine good"
+            jump choice_done
+        "One bloody chai, please":
+            b "Come again? Do you mean dirty chai?"
+            z "uh...I guess"
+            jump choice_done
+        "I’ll have a vanilla oat decaf double shot mocha frappuccino with a twist":
+            b "I see this isn’t your first time! One basic-white-girl coming right up!"
+            z "Thanks fellow human!"
+            jump choice_done
 
 
-    label choice1_semi:
-        b "Hmm, let’s get you caffeinated."
-        z "Caffeine good"
-        jump choice1_done
-
-
-    label choice1_zombie:
-        b "Come again? Do you mean dirty chai?"
-        z "uh...I guess"
-        jump choice1_done
-
-    label choice1_human:
-        b "I see this isn’t your first time! One basic-white-girl coming right up!"
-        z "Thanks fellow human!"
-        jump choice1_done
-
-
-    label choice1_done:
+    label choice_done:
         hide barista
     "*barista goes to make drink*"
 
-    z "That was a close one..."
+    z "I swear that was the same person from..."
     show barista at slightleft
     b "Order up!"
-    z "uh...*groan*"
-    $ caffeinated = True
-    jump destination2
-label destination2:
-    menu:
-        "Park":
-            jump destination_choice2
-#label park:
-    scene park
-    with fade
+    z "*almost falls over*"
+    jump gameWin
 
-
-    play music "audio/urban.wav"
-
-    show zombie at slightright
-    z "Ok now what?"
-    z "Maybe I'll just stand here and wait for a human..."
-
-    show hobo at slightleft with move
-
-    h "LDKJFOPIELKFJDFlkjls;dfjweo"
-    z "Uh oh"
-    # This ends the game.
 label gameOver:
     n "You have failed as a human. YOU LOSE"
-
+    return
+label gameWin:
+    n "You have regained your humanity. YOU WIN"
     return
