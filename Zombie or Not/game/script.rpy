@@ -14,6 +14,9 @@ define v = Character("Vending Machine")
 define a = Character("Locker Attendant")
 define items = []
 define locker =Character("Locker")
+define park_level = False
+define street_level = False
+define locker_level = False
 
 image zombie = "zombie.png"
 image protagonist = "protagonist.png"
@@ -30,6 +33,7 @@ image vending = Transform("vending.png", xzoom=-1)
 image bedroom = "bedroom.png"
 image locker = "rick.png"
 image station = "trainstation.png"
+image alley = "alley.png"
 
     # background images
 image coffee = "coffee.png"
@@ -98,22 +102,31 @@ label middle:
     stop music fadeout 2.0
     stop sound
     scene apartmentExterior
-    menu :
+    menu decision:
          "Check the Park":
-             jump park
+             if park_level:
+                 "I don't think I need to go there again"
+                 jump decision
+             else:
+                 jump park
          "Head down the street":
-             jump street
+             if street_level:
+                "I don't think I need to go there again"
+                jump decision
+             else:
+                jump street
          "Go to the locker":
-             jump locker
-
-    #label destination_choice1:
-        #jump coffeeShop
-
-    #label destination_choice2:
-    #    jump park
-
-    #label destination_choice3:
-    #    jump booze
+             if locker_level:
+                "I don't think I need to go there again"
+                jump decision
+             else:
+                jump locker
+         "Go to the location":
+             if "briefcase" in items:
+                jump location
+             else:
+                "I don't really want to show up empty-handed"
+                jump decision
 
 label park:
     scene park
@@ -178,6 +191,7 @@ label foundDog:
     g "You found him! Thank you so much! Here, take this."
     "You got {b}loose change: $0.69{/b}"
     $ items.append("change")
+    $ park_level = True
     jump middle
 
 label street:
@@ -205,6 +219,7 @@ label street:
                 z "But...what about my drink..."
                 v "..."
                 z "oh well"
+                $ street_level = True
                 jump middle
         "I wish I could":
             v "Well I'll be right here if you {i}change{/i} your mind."
@@ -240,7 +255,8 @@ label lockerTalk:
             locker "You kiddin' me? Do I look like I got a keyhole? Kids these days, gotta tell 'em how to do everything I tell ya."
             menu:
                 "Dude, you're a dick":
-                    jump gameOver
+                    n "Again with the social faux-pas"
+                    jump middle
                 "Ok, what should I do then?":
                     jump explain
                 "I don't know what a keyhole looks like":
@@ -255,14 +271,39 @@ label lockerTalk:
                 menu attendant:
                     "Will you marry me?":
                         n "It was at that moment...he knew he fucked up"
-                        jump gameOver
+                        jump middle
                     "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?":
-                        jump combination
+                        n "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
+                        $ items.remove("key")
+                        "You retrieved the {b}briefcase{/b}"
+                        $ items.append("briefcase")
+                        $ locker_level = True
+                        jump middle
                     "GIMME THE F*CKING LOCKER COMBINATION":
                         n "That was intense"
-                        jump gameOver
+                        jump middle
+label location:
+    scene alley
+    show zombie at slightright
+    z "Ok, here we are..."
+    "Congratulations, [name]! You made it to the final destination. Hope [pet] is still breathing..."
+    z "Who said that??"
+    z "I should probably open this door..."
+    menu door:
+        "Open door":
+            hide alley
+            hide zombie
+            jump surprise
+        "Run away":
+            n "You've come so far, just one more step."
+            jump door
+label surprise:
+    "SURPRISE!!!"
+    z "[pet]??"
+    jump win
 
-label combination:
+
+label win:
     n "yay you got the thing and everyone dies, how bout some coffee?"
     scene coffee
     play music "audio/coffee.mp3"

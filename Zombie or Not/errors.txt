@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 39: invalid syntax
-    $ items = items.clear()
-     ^
-    
+File "game/script.rpy", line 191: expected statement.
+    park_level = True
+               ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Tue May 10 09:22:21 2022
+Tue May 10 18:27:55 2022
