@@ -38,6 +38,7 @@ image bedroom = "bedroom.png"
 image locker = "rick.png"
 image station = "trainstation.png"
 image alley = "alley.png"
+image bg black = "#000000"
 
     # background images
 image coffee = "coffee.png"
@@ -179,14 +180,32 @@ label searchPark:
         "Behind the tree":
             show dog sad at slightleft
             play sound "audio/woof.mp3"
-            "The dog is here! Let's go find the little girl"
-            jump foundDog
+            z "The dog is here! Come on boy!"
+            show dog mad at slightleft
+            z "Hmm, he doesn't want to come with me"
+            if "toy" in items:
+                menu:
+                    "Give toy":
+                        $ items.remove("toy")
+                        show dog happy
+                        "Let's go find your mom!"
+                        jump foundDog
+            else:
+                "Maybe I should find something to give him"
+                hide dog mad
+                jump search
         "Behind the bush":
             "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
             jump search
         "Under a rock":
-            "There's a beetle! But...that's not a dog"
-            jump search
+            "There's a beetle! But...that's not a dog. Hmm, but there is what looks like a chew toy, weird"
+            menu:
+                "Take toy":
+                    $ items.append("toy")
+                    "Hmm, I bet he'll like this!"
+                    jump search
+                "Leave toy":
+                    jump search
 
 label foundDog:
     scene park
@@ -237,11 +256,12 @@ label locker:
     show locker at slightleft
     z "Okay, I made it to the locker. Let's get this over with"
     menu openLocker:
-        "Insert key":
+        "Open Locker":
             if "key" not in items:
                 z "Uh, I don't have anything to open this with"
                 jump openLocker
             else:
+                "you insert the {b}key{/b}"
                 jump lockerTalk
         "Leave":
             jump middle
@@ -297,13 +317,12 @@ label location:
     z "I should probably open this door..."
     menu door:
         "Open door":
-            hide alley
-            hide zombie
             jump surprise
         "Run away":
             n "You've come so far, just one more step."
             jump door
 label surprise:
+    scene bg black
     "SURPRISE!!!"
     z "[pet]??"
     jump win
