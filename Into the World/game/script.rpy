@@ -328,7 +328,9 @@ label surprise:
     $ items.remove("briefcase")
     scene bg party
     show zombie at right
-    show pet at slightleft
+    show pet:
+        xalign 0.75
+        yalign 0.30
     show girl happy at left
     show hobo:
         xalign 0.35
