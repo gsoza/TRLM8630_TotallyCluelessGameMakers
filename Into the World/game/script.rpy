@@ -24,7 +24,7 @@ image barista = "barista.png"
 image cop = "police.png"
 image apartmentExterior = "Apartment_exterior.png"
 image park = "park.png"
-image hobo = "hobo.png"
+image hobo = Transform("hobo.png", xzoom=-1)
 image girl sad = "girl_sad.png"
 image girl happy = "girl_happy.png"
 image girl mad = "girl_mad.png"
@@ -39,6 +39,8 @@ image locker = "rick.png"
 image station = "trainstation.png"
 image alley = "alley.png"
 image bg black = "#000000"
+image bg party = "party.jpeg"
+image pet = "iguana.png"
 
     # background images
 image coffee = "coffee.png"
@@ -97,9 +99,7 @@ label start:
     with fade
 
     n "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:"
-    n "1. Go to LOCATION and retrieve the briefcase in the locker 420
-    \n2. Bring this item with all of its contents to this location ADDRESS
-    \n3. Do not delay"
+    n "*The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station. From there you will take said briefcase to a specified location.*"
     stop music fadeout 3.0
     $ showitems = True
 
@@ -198,7 +198,7 @@ label searchPark:
             "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
             jump search
         "Under a rock":
-            "There's a beetle! But...that's not a dog. Hmm, but there is what looks like a chew toy, weird"
+            "I found a beetle...wait, I see a chew toy as well!"
             menu:
                 "Take toy":
                     $ items.append("toy")
@@ -228,20 +228,20 @@ label street:
     v "Spare some change?"
 
     menu vending:
-        "Holy sh*t, a talking vending machine! Stay away from me":
+        "What?? A talking vending machine! Stay away from me!":
             v "Wow, that was rude."
             n "Vending machines are people too...sorta...anyway be nice."
             jump middle
         "Sure, but this is all I have":
             if "change" not in items:
-                "what is this a trick? it's just your hand. Got any {i}actual{/i} change??"
+                "what is this a trick? It's just your hand. Got any {i}actual{/i} change??"
                 jump vending
             else:
                 $ items.remove("change")
                 v "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
                 "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
                 $ items.append("key")
-                z "But...what about my drink..."
+                z "But...what about my drink?"
                 v "..."
                 z "oh well"
                 $ street_level = True
@@ -254,50 +254,50 @@ label locker:
     scene station
     show zombie at slightright
     show locker at slightleft
-    z "Okay, I made it to the locker. Let's get this over with"
+    z "Okay, I made it to the locker. Let's get this thing open"
     menu openLocker:
         "Open Locker":
             if "key" not in items:
-                z "Uh, I don't have anything to open this with"
+                z "Uh, I don't have anything to open this with."
                 jump openLocker
             else:
-                "you insert the {b}key{/b}"
+                "You insert the {b}key{/b}"
                 jump lockerTalk
         "Leave":
             jump middle
 
 label lockerTalk:
-    locker "Hey kid, what's the big idea? You trying to stick some random junk in me? Buy me dinner first!"
-    z "...Another talking object"
+    locker "Hey kid, what's the big idea? Watch where you're sticking that thing!"
+    z "Oh great...another talking object"
     menu lockerResponse:
         "F*ck this sh*t, I'm out":
             play music "audio/fuck.mp3"
             n "yeah you gangsta, now come back when you wanna play nice"
             jump middle
-        "That's cool.":
+        "I don't have time for this.":
             locker "meh, another day then."
             jump openLocker
-        "Will you let me stick this key in you and get the breifcase?":
-            locker "You kiddin' me? Do I look like I got a keyhole? Kids these days, gotta tell 'em how to do everything I tell ya."
-            menu:
-                "Dude, you're a dick":
+        "Look, I'm just trying to get the briefcase inside so I can rescue [pet]":
+            locker "Well, I don't know what a [pet] is, but that key ain't gonna work. Kids these days, gotta tell 'em how to do everything I tell ya."
+            menu lockerResponse2:
+                "Jerk...":
                     n "Again with the social faux-pas"
-                    jump middle
+                    jump lockerResponse2
                 "Ok, what should I do then?":
                     jump explain
-                "I don't know what a keyhole looks like":
-                    jump explain
             label explain:
-                locker "Alright alright, I'll help ya out kid. It's easy. Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
+                locker "You look like a nice kid, I'll help ya out."
+                locker "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
                 z "Ok, here goes."
                 scene station
                 show barista at slightleft
                 show zombie at slightright
                 a "Hiya! How can I help you?"
                 menu attendant:
-                    "Will you marry me?":
-                        n "It was at that moment...he knew he fucked up"
-                        jump middle
+                    "*babbles incoherently*":
+                        n "The attendant looks at you, confused, then turns away."
+                        n "Maybe try using people words"
+                        jump attendant
                     "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?":
                         n "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
                         $ items.remove("key")
@@ -305,7 +305,7 @@ label lockerTalk:
                         $ items.append("briefcase")
                         $ locker_level = True
                         jump middle
-                    "GIMME THE F*CKING LOCKER COMBINATION":
+                    "GIMME THE LOCKER COMBINATION!":
                         n "That was intense"
                         jump middle
 label location:
@@ -325,6 +325,18 @@ label surprise:
     scene bg black
     "SURPRISE!!!"
     z "[pet]??"
+    $ items.remove("briefcase")
+    scene bg party
+    show zombie at right
+    show pet at slightleft
+    show girl happy at left
+    show hobo:
+        xalign 0.35
+        yalign 1.0
+    h "We arranged this suprise party challenge for you."
+    h "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
+    z "It was definitely a strange adventure, but was a lot of fun. I'm glad [pet] is okay!"
+    p "*happy noises*"
     jump win
 
 

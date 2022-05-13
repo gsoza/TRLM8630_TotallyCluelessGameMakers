@@ -1,28 +1,48 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 186, in script
-    if toy in items:
-  File "game/script.rpy", line 186, in <module>
-    if toy in items:
-NameError: name 'toy' is not defined
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 390, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 390, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+Exception: CoreAudio error (AudioQueueStart): -66681
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 186, in script
-    if toy in items:
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 1898, in execute
-    if renpy.python.py_eval(condition):
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/python.py", line 2276, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/python.py", line 2269, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 186, in <module>
-    if toy in items:
-NameError: name 'toy' is not defined
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 390, in script
+    $ __gl_test()
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gltest.rpy", line 390, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 3286, in interact
+    self.start()
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 2200, in start
+    renpy.audio.audio.init()
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/audio/audio.py", line 955, in init
+    renpysound.init(renpy.config.sound_sample_rate, 2, bufsize, False, renpy.config.equal_mono)
+  File "renpysound.pyx", line 390, in renpy.audio.renpysound.init
+  File "renpysound.pyx", line 98, in renpy.audio.renpysound.check_error
+Exception: CoreAudio error (AudioQueueStart): -66681
 
 Darwin-21.4.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
 Zombie or Not 1.0
-Wed May 11 22:06:38 2022
+Thu May 12 17:52:30 2022
