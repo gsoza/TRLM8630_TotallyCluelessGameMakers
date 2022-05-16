@@ -130,7 +130,7 @@ label story:
     n "The world was no longer a friendly place, and the very thought of seeing people..."
     n "..."
     n "6 months have passed since the lockdown was lifted."
-    n "However, [name] did not dare step outside the front door, but instead remained within the walls of the apartment, only with [pet] as company."
+    n "However, you, [name] did not dare step outside your front door, but instead remained within the walls of your apartment, only with your pet Iguana, [pet] as company."
     n "Little did [name] know, all of this was about to change..."
 
     scene bedroom
@@ -169,7 +169,7 @@ label middle:
              if "briefcase" in items:
                 jump location
              else:
-                "I don't really want to show up empty-handed"
+                "Better not show up empty-handed"
                 jump decision
 
 label park:
@@ -191,7 +191,7 @@ label park:
     menu:
         "Heck no kiddo, dogs are GROSS":
             jump sadGirlChoice_rude
-        "You poor thing, of course I can!":
+        "Uh, sure...I can look around":
             jump sadGirlChoice_good
         "I wish I could":
             jump sadGirlChoice_nothing
@@ -219,7 +219,7 @@ label searchPark:
         "Behind the tree":
             show dog sad at slightleft
             play sound "audio/woof.mp3"
-            z @ happy "The dog is here! Come on boy!"
+            z @ happy "Hey I found it! Come on boy!"
             show dog mad at slightleft
             z "Hmm, he doesn't want to come with me"
             if "toy" in items:
