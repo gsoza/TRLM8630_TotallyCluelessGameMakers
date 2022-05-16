@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 105: expected 'image_name_component' not found.
-    show at left "Protagonist1.png"
-        ^
-
-File "game/script.rpy", line 106: expected 'image_name_component' not found.
-    show at right "Protagonist2.png"
-        ^
+File "game/script.rpy", line 23: invalid syntax
+    "[protag]_happy", xzoom=-1)
+                            ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon May 16 11:19:01 2022
+Mon May 16 13:06:56 2022

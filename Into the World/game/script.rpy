@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 define b = Character("Barista")
-define z = Character("[name]")
+define z = Character("[name]", image="protagonist")
 define c = Character("Cop")
 define h = Character("Hobo")
 define p = Character("[pet]")
@@ -17,11 +17,10 @@ define locker =Character("Locker")
 define park_level = False
 define street_level = False
 define locker_level = False
-define protagonist = ""
+define protag = ""
 
-
-image zombie = "[protagonist]"
-image protagonist = "protagonist.png"
+image protagonist = Transform("[protag].png", xzoom=-1)
+image protagonist happy = Transform("[protag]_happy.png", xzoom=-1)
 image barista = "barista.png"
 image cop = "police.png"
 image apartmentExterior = "Apartment_exterior.png"
@@ -108,14 +107,18 @@ label start:
     menu:
         # "{image=Protagonist1.png}":
         "<- Character 1":
-            $ protagonist = "Protagonist1.png"
+            $ protag = "Protagonist1"
             hide Protag1
             hide Protag2
+            jump story
         # "{image=Protagonist2.png}":
         "Character 2 ->":
-            $ protagonist = "Protagonist2.png"
+            $ protag = "Protagonist2"
             hide Protag1
             hide Protag2
+            jump story
+
+label story:
 
 
 
@@ -142,6 +145,7 @@ label middle:
     stop music fadeout 2.0
     stop sound
     scene apartmentExterior
+    show protagonist at slightright
     menu decision:
          "Check the Park":
              if park_level:
@@ -177,7 +181,7 @@ label park:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show zombie at slightright
+    show protagonist at slightright
 
     show girl sad at slightleft
 
@@ -209,13 +213,13 @@ label park:
 
 label searchPark:
     scene park
-    show zombie at slightright
+    show protagonist at slightright
     "Where should I look?"
     menu search:
         "Behind the tree":
             show dog sad at slightleft
             play sound "audio/woof.mp3"
-            z "The dog is here! Come on boy!"
+            z @ happy "The dog is here! Come on boy!"
             show dog mad at slightleft
             z "Hmm, he doesn't want to come with me"
             if "toy" in items:
@@ -223,7 +227,7 @@ label searchPark:
                     "Give toy":
                         $ items.remove("toy")
                         show dog happy
-                        "Let's go find your mom!"
+                        z @ happy "Let's go find your mom!"
                         jump foundDog
             else:
                 "Maybe I should find something to give him"
@@ -244,7 +248,7 @@ label searchPark:
 
 label foundDog:
     scene park
-    show zombie at slightright
+    show protagonist at slightright
     show flipdog happy at slightright
     show girl happy at slightleft
     play sound "audio/panting.mp3"
@@ -256,7 +260,7 @@ label foundDog:
 
 label street:
     scene street
-    show zombie at slightright
+    show protagonist at slightright
     z "Man, it's so hot today, I could really use a drink right now..."
     z "Oh look, a vending machine, perfect!"
     show vending at left
@@ -287,7 +291,7 @@ label street:
 
 label locker:
     scene station
-    show zombie at slightright
+    show protagonist at slightright
     show locker at slightleft
     z "Okay, I made it to the locker. Let's get this thing open"
     menu openLocker:
@@ -326,7 +330,7 @@ label lockerTalk:
                 z "Ok, here goes."
                 scene station
                 show barista at slightleft
-                show zombie at slightright
+                show protagonist at slightright
                 a "Hiya! How can I help you?"
                 menu attendant:
                     "*babbles incoherently*":
@@ -345,7 +349,7 @@ label lockerTalk:
                         jump middle
 label location:
     scene alley
-    show zombie at slightright
+    show protagonist at slightright
     z "Ok, here we are..."
     "Congratulations, [name]! You made it to the final destination. Hope [pet] is still breathing..."
     z "Who said that??"
@@ -362,7 +366,7 @@ label surprise:
     z "[pet]??"
     $ items.remove("briefcase")
     scene bg party
-    show zombie at right
+    show protagonist at right
     show pet:
         xalign 0.75
         yalign 0.30
@@ -382,7 +386,7 @@ label win:
     scene coffee
     play music "audio/coffee.mp3"
     show barista at slightleft
-    show zombie at slightright
+    show protagonist at slightright
     b "Hi, welcome to Zombucks, how can I help you?"
     z "Didn't I just see you at...uh...nevermind"
     menu drinkchoice:

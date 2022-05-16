@@ -1,34 +1,42 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 180, in script
-    show zombie at slightright
-Exception: DynamicImage u'[protagonist]': could not find image. (u'')
+  File "game/script.rpy", line 222, in script
+    z @ happy "The dog is here! Come on boy!"
+Exception: DynamicImage u'[protag]_happy': could not find image. (u'Protagonist1_happy')
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 180, in script
-    show zombie at slightright
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 1197, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 1167, in show_imspec
-    atl=atl)
+  File "game/script.rpy", line 222, in script
+    z @ happy "The dog is here! Come on boy!"
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/exports.py", line 1419, in say
+    who(what, *args, **kwargs)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/character.py", line 1189, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/character.py", line 1012, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, temporary_attrs):
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/character.py", line 957, in resolve_say_attributes
+    renpy.exports.show(show_image)
   File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/exports.py", line 768, in show
     sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 1139, in add
-    thing.set_transform_event("show")
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 1132, in add
+    thing.set_transform_event("replace")
   File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/transform.py", line 545, in set_transform_event
     self.child.set_transform_event(event)
   File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/image.py", line 489, in set_transform_event
     return self.target.set_transform_event(event)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/transform.py", line 545, in set_transform_event
+    self.child.set_transform_event(event)
   File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/image.py", line 719, in set_transform_event
     self.find_target()
   File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/image.py", line 652, in find_target
     raise Exception(error)
-Exception: DynamicImage u'[protagonist]': could not find image. (u'')
+Exception: DynamicImage u'[protag]_happy': could not find image. (u'Protagonist1_happy')
 
 Darwin-21.4.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
 Zombie or Not 1.0
-Mon May 16 11:23:52 2022
+Mon May 16 13:11:58 2022
