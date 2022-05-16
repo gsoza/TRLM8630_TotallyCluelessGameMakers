@@ -211,7 +211,12 @@ screen choice(items):
         for i in items:
             textbutton i.caption action i.action
 
+screen choice2(items):
+    style_prefix "choice2"
 
+    hbox:
+        for i in items:
+            textbutton i.caption action i.action
 ## When this is true, menu captions will be spoken by the narrator. When false,
 ## menu captions will be displayed as empty buttons.
 define config.narrator_menu = True

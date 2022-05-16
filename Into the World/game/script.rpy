@@ -17,8 +17,10 @@ define locker =Character("Locker")
 define park_level = False
 define street_level = False
 define locker_level = False
+define protagonist = ""
 
-image zombie = "zombie.png"
+
+image zombie = "[protagonist]"
 image protagonist = "protagonist.png"
 image barista = "barista.png"
 image cop = "police.png"
@@ -41,11 +43,24 @@ image alley = "alley.png"
 image bg black = "#000000"
 image bg party = "party.jpeg"
 image pet = "iguana.png"
+image Protag1 = "Protagonist1.png"
+image Protag2 = "Protagonist2.png"
 
     # background images
 image coffee = "coffee.png"
 image outside = "City_Afternoon.png"
 
+# screen choose:
+#       imagebutton:
+#           auto "Protagonist1_%s.png"
+#           xalign 0.2
+#           yalign 0.6
+#           action Jump("choose_male")
+#       imagebutton:
+#           auto "Protagonist2_%s.png"
+#           xalign 0.8
+#           yalign 0.6
+#           action Jump("choose_female")
 
 init python:
     showitems = False
@@ -73,7 +88,6 @@ transform slightright:
 # The game starts here.
 
 
-
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
@@ -83,6 +97,27 @@ label start:
     $ name = name.strip() or "Gary"
     $ pet = renpy.input("What is the last thing you ate?")
     $ pet = pet.strip() or "Vitamin D"
+
+    # show screen choose
+    # label chose_male:
+    #     $protagonist = "Protagonist1.png"
+    # label chose_female:
+    #     $protagonist = "Protagonist2.png"
+    show Protag1 at left
+    show Protag2 at right
+    menu:
+        # "{image=Protagonist1.png}":
+        "<- Character 1":
+            $ protagonist = "Protagonist1.png"
+            hide Protag1
+            hide Protag2
+        # "{image=Protagonist2.png}":
+        "Character 2 ->":
+            $ protagonist = "Protagonist2.png"
+            hide Protag1
+            hide Protag2
+
+
 
     play music "audio/stairs-into-the-unknown-dark-piano-music-1497.mp3"
     n "Two years have passed, since Covid-57 struck the nation."

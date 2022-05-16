@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 191: expected statement.
-    park_level = True
-               ^
+File "game/script.rpy", line 105: expected 'image_name_component' not found.
+    show at left "Protagonist1.png"
+        ^
+
+File "game/script.rpy", line 106: expected 'image_name_component' not found.
+    show at right "Protagonist2.png"
+        ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Tue May 10 18:27:55 2022
+Mon May 16 11:19:01 2022
