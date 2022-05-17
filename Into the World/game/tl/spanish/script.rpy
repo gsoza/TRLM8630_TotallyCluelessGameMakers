@@ -878,3 +878,15 @@ translate spanish strings:
     old "GIMME THE LOCKER COMBINATION!"
     new "¡DAME LA COMBINACIÓN DEL LOCKER!"
 
+# TODO: Translation updated at 2022-05-17 14:26
+
+translate spanish strings:
+
+    # game/script.rpy:112
+    old "What is your name?"
+    new ""
+
+    # game/script.rpy:114
+    old "What is the last thing you ate?"
+    new ""
+

@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: game/options.rpy:15
-msgid "Zombie or Not"
+msgid "Into the World"
 msgstr ""
 
 #: game/screens.rpy:261
@@ -160,672 +160,696 @@ msgstr ""
 msgid "Transitions"
 msgstr ""
 
-#: game/screens.rpy:764
+#: game/screens.rpy:757
+msgid "Language"
+msgstr ""
+
+#: game/screens.rpy:776
 msgid "Text Speed"
 msgstr ""
 
-#: game/screens.rpy:768
+#: game/screens.rpy:780
 msgid "Auto-Forward Time"
 msgstr ""
 
-#: game/screens.rpy:775
+#: game/screens.rpy:787
 msgid "Music Volume"
 msgstr ""
 
-#: game/screens.rpy:782
+#: game/screens.rpy:794
 msgid "Sound Volume"
 msgstr ""
 
-#: game/screens.rpy:788
+#: game/screens.rpy:800
 msgid "Test"
 msgstr ""
 
-#: game/screens.rpy:792
+#: game/screens.rpy:804
 msgid "Voice Volume"
 msgstr ""
 
-#: game/screens.rpy:803
+#: game/screens.rpy:815
 msgid "Mute All"
 msgstr ""
 
-#: game/screens.rpy:922
+#: game/screens.rpy:934
 msgid "The dialogue history is empty."
 msgstr ""
 
-#: game/screens.rpy:992
+#: game/screens.rpy:1004
 msgid "Keyboard"
 msgstr ""
 
-#: game/screens.rpy:993
+#: game/screens.rpy:1005
 msgid "Mouse"
 msgstr ""
 
-#: game/screens.rpy:996
+#: game/screens.rpy:1008
 msgid "Gamepad"
 msgstr ""
 
-#: game/screens.rpy:1009
+#: game/screens.rpy:1021
 msgid "Enter"
 msgstr ""
 
-#: game/screens.rpy:1010
+#: game/screens.rpy:1022
 msgid "Advances dialogue and activates the interface."
 msgstr ""
 
-#: game/screens.rpy:1013
+#: game/screens.rpy:1025
 msgid "Space"
 msgstr ""
 
-#: game/screens.rpy:1014
+#: game/screens.rpy:1026
 msgid "Advances dialogue without selecting choices."
 msgstr ""
 
-#: game/screens.rpy:1017
+#: game/screens.rpy:1029
 msgid "Arrow Keys"
 msgstr ""
 
-#: game/screens.rpy:1018
+#: game/screens.rpy:1030
 msgid "Navigate the interface."
 msgstr ""
 
-#: game/screens.rpy:1021
+#: game/screens.rpy:1033
 msgid "Escape"
 msgstr ""
 
-#: game/screens.rpy:1022
+#: game/screens.rpy:1034
 msgid "Accesses the game menu."
 msgstr ""
 
-#: game/screens.rpy:1025
+#: game/screens.rpy:1037
 msgid "Ctrl"
 msgstr ""
 
-#: game/screens.rpy:1026
+#: game/screens.rpy:1038
 msgid "Skips dialogue while held down."
 msgstr ""
 
-#: game/screens.rpy:1029
+#: game/screens.rpy:1041
 msgid "Tab"
 msgstr ""
 
-#: game/screens.rpy:1030
+#: game/screens.rpy:1042
 msgid "Toggles dialogue skipping."
 msgstr ""
 
-#: game/screens.rpy:1033
+#: game/screens.rpy:1045
 msgid "Page Up"
 msgstr ""
 
-#: game/screens.rpy:1034
+#: game/screens.rpy:1046
 msgid "Rolls back to earlier dialogue."
 msgstr ""
 
-#: game/screens.rpy:1037
+#: game/screens.rpy:1049
 msgid "Page Down"
 msgstr ""
 
-#: game/screens.rpy:1038
+#: game/screens.rpy:1050
 msgid "Rolls forward to later dialogue."
 msgstr ""
 
-#: game/screens.rpy:1042
+#: game/screens.rpy:1054
 msgid "Hides the user interface."
 msgstr ""
 
-#: game/screens.rpy:1046
+#: game/screens.rpy:1058
 msgid "Takes a screenshot."
 msgstr ""
 
-#: game/screens.rpy:1050
+#: game/screens.rpy:1062
 msgid "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
 msgstr ""
 
-#: game/screens.rpy:1054
+#: game/screens.rpy:1066
 msgid "Opens the accessibility menu."
 msgstr ""
 
-#: game/screens.rpy:1060
+#: game/screens.rpy:1072
 msgid "Left Click"
 msgstr ""
 
-#: game/screens.rpy:1064
+#: game/screens.rpy:1076
 msgid "Middle Click"
 msgstr ""
 
-#: game/screens.rpy:1068
+#: game/screens.rpy:1080
 msgid "Right Click"
 msgstr ""
 
-#: game/screens.rpy:1072
+#: game/screens.rpy:1084
 msgid "Mouse Wheel Up\nClick Rollback Side"
 msgstr ""
 
-#: game/screens.rpy:1076
+#: game/screens.rpy:1088
 msgid "Mouse Wheel Down"
 msgstr ""
 
-#: game/screens.rpy:1083
+#: game/screens.rpy:1095
 msgid "Right Trigger\nA/Bottom Button"
 msgstr ""
 
-#: game/screens.rpy:1087
+#: game/screens.rpy:1099
 msgid "Left Trigger\nLeft Shoulder"
 msgstr ""
 
-#: game/screens.rpy:1091
+#: game/screens.rpy:1103
 msgid "Right Shoulder"
 msgstr ""
 
-#: game/screens.rpy:1096
+#: game/screens.rpy:1108
 msgid "D-Pad, Sticks"
 msgstr ""
 
-#: game/screens.rpy:1100
+#: game/screens.rpy:1112
 msgid "Start, Guide"
 msgstr ""
 
-#: game/screens.rpy:1104
+#: game/screens.rpy:1116
 msgid "Y/Top Button"
 msgstr ""
 
-#: game/screens.rpy:1107
+#: game/screens.rpy:1119
 msgid "Calibrate"
 msgstr ""
 
-#: game/screens.rpy:1172
+#: game/screens.rpy:1184
 msgid "Yes"
 msgstr ""
 
-#: game/screens.rpy:1173
+#: game/screens.rpy:1185
 msgid "No"
 msgstr ""
 
-#: game/screens.rpy:1219
+#: game/screens.rpy:1231
 msgid "Skipping"
 msgstr ""
 
-#: game/screens.rpy:1442
+#: game/screens.rpy:1454
 msgid "Menu"
 msgstr ""
 
-#: game/script.rpy:107
-msgid "<- Character 1"
+#: game/script.rpy:112
+msgid "What is your name?"
 msgstr ""
 
-#: game/script.rpy:107
-msgid "Character 2 ->"
-msgstr ""
-
-#: game/script.rpy:126
-msgid "Two years have passed, since Covid-57 struck the nation."
-msgstr ""
-
-#: game/script.rpy:127
-msgid "Families were forced to stay indoors to prevent the virus from spreading."
-msgstr ""
-
-#: game/script.rpy:128
-msgid "Finally the lockdown has been lifted. Some were overjoyed at the opportunity to go out into the world again, socialize, see their friends, go to parties, coffee shops, shopping malls."
+#: game/script.rpy:114
+msgid "What is the last thing you ate?"
 msgstr ""
 
 #: game/script.rpy:129
-msgid "But others felt the effects of the long-term isolation."
+msgid "Two years have passed, since Covid-57 struck the nation."
 msgstr ""
 
 #: game/script.rpy:130
-msgid "The world was no longer a friendly place, and the very thought of seeing people..."
+msgid "Families were forced to stay indoors to prevent the virus from spreading."
 msgstr ""
 
 #: game/script.rpy:131
+msgid "Finally the lockdown has been lifted. Some were overjoyed at the opportunity to go out into the world again, socialize, see their friends, go to parties, coffee shops, shopping malls."
+msgstr ""
+
+#: game/script.rpy:132
+msgid "But others felt the effects of the long-term isolation."
+msgstr ""
+
+#: game/script.rpy:133
+msgid "The world was no longer a friendly place, and the very thought of seeing people..."
+msgstr ""
+
+#: game/script.rpy:134
 msgctxt "story_bb2cf764"
 msgid "..."
 msgstr ""
 
-#: game/script.rpy:132
+#: game/script.rpy:135
 msgid "6 months have passed since the lockdown was lifted."
 msgstr ""
 
-#: game/script.rpy:133
+#: game/script.rpy:136
 msgid "However, you, [name] did not dare step outside your front door, but instead remained within the walls of your apartment, only with your pet Iguana, [pet] as company."
 msgstr ""
 
-#: game/script.rpy:134
+#: game/script.rpy:137
 msgid "Little did [name] know, all of this was about to change..."
 msgstr ""
 
-#: game/script.rpy:139
-msgid "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:"
+#: game/script.rpy:142
+msgid "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads:"
 msgstr ""
 
-#: game/script.rpy:140
-msgid "*The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station. From there you will take said briefcase to a specified location.*"
+#: game/script.rpy:142
+msgid "\"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:\""
 msgstr ""
 
-#: game/script.rpy:149
+#: game/script.rpy:142
+msgid "*The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station."
+msgstr ""
+
+#: game/script.rpy:142
+msgid "From there you will take said briefcase to a specified location.*"
+msgstr ""
+
+#: game/script.rpy:156
+msgid "<- Character 1"
+msgstr ""
+
+#: game/script.rpy:156
+msgid "Character 2 ->"
+msgstr ""
+
+#: game/script.rpy:174
 msgid "Check the Park"
 msgstr ""
 
-#: game/script.rpy:149
+#: game/script.rpy:174
 msgid "Head down the street"
 msgstr ""
 
-#: game/script.rpy:149
+#: game/script.rpy:174
 msgid "Go to the locker"
 msgstr ""
 
-#: game/script.rpy:149
+#: game/script.rpy:174
 msgid "Go to the location"
 msgstr ""
 
-#: game/script.rpy:152
+#: game/script.rpy:177
 msgctxt "decision_74b147a3"
 msgid "I don't think I need to go there again"
 msgstr ""
 
-#: game/script.rpy:158
+#: game/script.rpy:183
 msgctxt "decision_74b147a3_1"
 msgid "I don't think I need to go there again"
 msgstr ""
 
-#: game/script.rpy:164
+#: game/script.rpy:189
 msgctxt "decision_74b147a3_2"
 msgid "I don't think I need to go there again"
 msgstr ""
 
-#: game/script.rpy:172
+#: game/script.rpy:197
 msgid "Better not show up empty-handed"
 msgstr ""
 
-#: game/script.rpy:188
+#: game/script.rpy:213
 msgid "Um...hi"
 msgstr ""
 
-#: game/script.rpy:189
+#: game/script.rpy:214
 msgid "Can you help me find my doggie? I LOST MY DOGGIE"
 msgstr ""
 
-#: game/script.rpy:191
+#: game/script.rpy:216
 msgid "Heck no kiddo, dogs are GROSS"
 msgstr ""
 
-#: game/script.rpy:191
+#: game/script.rpy:216
 msgid "Uh, sure...I can look around"
 msgstr ""
 
-#: game/script.rpy:191
+#: game/script.rpy:216
 msgid "I wish I could"
 msgstr ""
 
-#: game/script.rpy:201
+#: game/script.rpy:226
 msgid "You big meanie"
 msgstr ""
 
-#: game/script.rpy:202
+#: game/script.rpy:227
 msgid "That was a pretty jerk move, come back when you learn not to bully little girls."
 msgstr ""
 
-#: game/script.rpy:207
+#: game/script.rpy:232
 msgid "You're so nice!"
 msgstr ""
 
-#: game/script.rpy:211
+#: game/script.rpy:236
 msgid "*cry* please come back if you can!"
 msgstr ""
 
-#: game/script.rpy:217
+#: game/script.rpy:242
 msgid "Where should I look?"
 msgstr ""
 
-#: game/script.rpy:218
+#: game/script.rpy:243
 msgid "Behind the tree"
 msgstr ""
 
-#: game/script.rpy:218
+#: game/script.rpy:243
 msgid "Behind the bush"
 msgstr ""
 
-#: game/script.rpy:218
+#: game/script.rpy:243
 msgid "Under a rock"
 msgstr ""
 
-#: game/script.rpy:222
+#: game/script.rpy:247
 msgid "Hey I found it! Come on boy!"
 msgstr ""
 
-#: game/script.rpy:224
+#: game/script.rpy:249
 msgid "Hmm, he doesn't want to come with me"
 msgstr ""
 
-#: game/script.rpy:226
+#: game/script.rpy:251
 msgid "Give toy"
 msgstr ""
 
-#: game/script.rpy:230
+#: game/script.rpy:255
 msgid "Let's go find your mom!"
 msgstr ""
 
-#: game/script.rpy:233
+#: game/script.rpy:258
 msgid "Maybe I should find something to give him"
 msgstr ""
 
-#: game/script.rpy:237
+#: game/script.rpy:262
 msgid "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
 msgstr ""
 
-#: game/script.rpy:240
+#: game/script.rpy:265
 msgid "I found a beetle...wait, I see a chew toy as well!"
 msgstr ""
 
-#: game/script.rpy:241
+#: game/script.rpy:266
 msgid "Take toy"
 msgstr ""
 
-#: game/script.rpy:241
+#: game/script.rpy:266
 msgid "Leave toy"
 msgstr ""
 
-#: game/script.rpy:244
+#: game/script.rpy:269
 msgid "Hmm, I bet he'll like this!"
 msgstr ""
 
-#: game/script.rpy:255
+#: game/script.rpy:280
 msgid "You found him! Thank you so much! Here, take this."
 msgstr ""
 
-#: game/script.rpy:256
+#: game/script.rpy:281
 msgid "You got {b}loose change: $0.69{/b}"
 msgstr ""
 
-#: game/script.rpy:264
+#: game/script.rpy:289
 msgid "Man, it's so hot today, I could really use a drink right now..."
 msgstr ""
 
-#: game/script.rpy:265
+#: game/script.rpy:290
 msgid "Oh look, a vending machine, perfect!"
 msgstr ""
 
-#: game/script.rpy:267
+#: game/script.rpy:292
 msgid "Spare some change?"
 msgstr ""
 
-#: game/script.rpy:269
+#: game/script.rpy:294
 msgid "What?? A talking vending machine! Stay away from me!"
 msgstr ""
 
-#: game/script.rpy:269
+#: game/script.rpy:294
 msgid "Sure, but this is all I have"
 msgstr ""
 
-#: game/script.rpy:271
+#: game/script.rpy:296
 msgid "Wow, that was rude."
 msgstr ""
 
-#: game/script.rpy:272
+#: game/script.rpy:297
 msgid "Vending machines are people too...sorta...anyway be nice."
 msgstr ""
 
-#: game/script.rpy:276
+#: game/script.rpy:301
 msgid "what is this a trick? It's just your hand. Got any {i}actual{/i} change??"
 msgstr ""
 
-#: game/script.rpy:280
+#: game/script.rpy:305
 msgid "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
 msgstr ""
 
-#: game/script.rpy:281
+#: game/script.rpy:306
 msgid "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
 msgstr ""
 
-#: game/script.rpy:283
+#: game/script.rpy:308
 msgid "But...what about my drink?"
 msgstr ""
 
-#: game/script.rpy:284
+#: game/script.rpy:309
 msgctxt "vending_65cabcbf"
 msgid "..."
 msgstr ""
 
-#: game/script.rpy:285
+#: game/script.rpy:310
 msgid "oh well"
 msgstr ""
 
-#: game/script.rpy:289
+#: game/script.rpy:314
 msgid "Well I'll be right here if you {i}change{/i} your mind."
 msgstr ""
 
-#: game/script.rpy:296
+#: game/script.rpy:321
 msgid "Okay, I made it to the locker. Let's get this thing open"
 msgstr ""
 
-#: game/script.rpy:297
+#: game/script.rpy:322
 msgid "Open Locker"
 msgstr ""
 
-#: game/script.rpy:297
+#: game/script.rpy:322
 msgid "Leave"
 msgstr ""
 
-#: game/script.rpy:300
+#: game/script.rpy:325
 msgid "Uh, I don't have anything to open this with."
 msgstr ""
 
-#: game/script.rpy:303
+#: game/script.rpy:328
 msgid "You insert the {b}key{/b}"
 msgstr ""
 
-#: game/script.rpy:309
+#: game/script.rpy:334
 msgid "Hey kid, what's the big idea? Watch where you're sticking that thing!"
 msgstr ""
 
-#: game/script.rpy:310
+#: game/script.rpy:335
 msgid "Oh great...another talking object"
 msgstr ""
 
-#: game/script.rpy:311
+#: game/script.rpy:336
 msgid "F*ck this sh*t, I'm out"
 msgstr ""
 
-#: game/script.rpy:311
+#: game/script.rpy:336
 msgid "I don't have time for this."
 msgstr ""
 
-#: game/script.rpy:311
+#: game/script.rpy:336
 msgid "Look, I'm just trying to get the briefcase inside so I can rescue [pet]"
 msgstr ""
 
-#: game/script.rpy:314
+#: game/script.rpy:339
 msgid "yeah you gangsta, now come back when you wanna play nice"
 msgstr ""
 
-#: game/script.rpy:317
+#: game/script.rpy:342
 msgid "meh, another day then."
 msgstr ""
 
-#: game/script.rpy:320
+#: game/script.rpy:345
 msgid "Well, I don't know what a [pet] is, but that key ain't gonna work. Kids these days, gotta tell 'em how to do everything I tell ya."
 msgstr ""
 
-#: game/script.rpy:321
+#: game/script.rpy:346
 msgid "Jerk..."
 msgstr ""
 
-#: game/script.rpy:321
+#: game/script.rpy:346
 msgid "Ok, what should I do then?"
 msgstr ""
 
-#: game/script.rpy:323
+#: game/script.rpy:348
 msgid "Again with the social faux-pas"
 msgstr ""
 
-#: game/script.rpy:328
+#: game/script.rpy:353
 msgid "You look like a nice kid, I'll help ya out."
 msgstr ""
 
-#: game/script.rpy:329
+#: game/script.rpy:354
 msgid "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
 msgstr ""
 
-#: game/script.rpy:330
+#: game/script.rpy:355
 msgid "Ok, here goes."
 msgstr ""
 
-#: game/script.rpy:334
+#: game/script.rpy:359
 msgid "Hiya! How can I help you?"
 msgstr ""
 
-#: game/script.rpy:335
+#: game/script.rpy:360
 msgid "*babbles incoherently*"
 msgstr ""
 
-#: game/script.rpy:335
+#: game/script.rpy:360
 msgid "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?"
 msgstr ""
 
-#: game/script.rpy:335
+#: game/script.rpy:360
 msgid "GIMME THE LOCKER COMBINATION!"
 msgstr ""
 
-#: game/script.rpy:337
+#: game/script.rpy:362
 msgid "The attendant looks at you, confused, then turns away."
 msgstr ""
 
-#: game/script.rpy:338
+#: game/script.rpy:363
 msgid "Maybe try using people words"
 msgstr ""
 
-#: game/script.rpy:341
+#: game/script.rpy:366
 msgid "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
 msgstr ""
 
-#: game/script.rpy:343
+#: game/script.rpy:368
 msgid "You retrieved the {b}briefcase{/b}"
 msgstr ""
 
-#: game/script.rpy:348
+#: game/script.rpy:373
 msgid "That was intense"
 msgstr ""
 
-#: game/script.rpy:353
+#: game/script.rpy:378
 msgid "Ok, here we are..."
 msgstr ""
 
-#: game/script.rpy:354
+#: game/script.rpy:379
 msgid "Congratulations, [name]! You made it to the final destination. Hope [pet] is still breathing..."
 msgstr ""
 
-#: game/script.rpy:355
+#: game/script.rpy:380
 msgid "Who said that??"
 msgstr ""
 
-#: game/script.rpy:356
+#: game/script.rpy:381
 msgid "I should probably open this door..."
 msgstr ""
 
-#: game/script.rpy:357
+#: game/script.rpy:382
 msgid "Open door"
 msgstr ""
 
-#: game/script.rpy:357
+#: game/script.rpy:382
 msgid "Run away"
 msgstr ""
 
-#: game/script.rpy:361
+#: game/script.rpy:386
 msgid "You've come so far, just one more step."
 msgstr ""
 
-#: game/script.rpy:365
+#: game/script.rpy:390
 msgid "SURPRISE!!!"
 msgstr ""
 
-#: game/script.rpy:366
+#: game/script.rpy:391
 msgid "[pet]??"
 msgstr ""
 
-#: game/script.rpy:377
+#: game/script.rpy:403
+msgid "What is all this?"
+msgstr ""
+
+#: game/script.rpy:404
 msgid "We arranged this suprise party challenge for you."
 msgstr ""
 
-#: game/script.rpy:378
+#: game/script.rpy:405
 msgid "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
 msgstr ""
 
-#: game/script.rpy:379
+#: game/script.rpy:406
 msgid "It was definitely a strange adventure, but was a lot of fun. I'm glad [pet] is okay!"
 msgstr ""
 
-#: game/script.rpy:380
+#: game/script.rpy:407
 msgid "*happy noises*"
 msgstr ""
 
-#: game/script.rpy:385
+#: game/script.rpy:412
 msgid "yay you got the thing and everyone dies, how bout some coffee?"
 msgstr ""
 
-#: game/script.rpy:390
+#: game/script.rpy:417
 msgid "Hi, welcome to Zombucks, how can I help you?"
 msgstr ""
 
-#: game/script.rpy:391
+#: game/script.rpy:418
 msgid "Didn't I just see you at...uh...nevermind"
 msgstr ""
 
-#: game/script.rpy:392
+#: game/script.rpy:419
 msgid "Need…coffee…*groan*"
 msgstr ""
 
-#: game/script.rpy:392
+#: game/script.rpy:419
 msgid "One bloody chai, please"
 msgstr ""
 
-#: game/script.rpy:392
+#: game/script.rpy:419
 msgid "I’ll have a vanilla oat decaf double shot mocha frappuccino with a twist"
 msgstr ""
 
-#: game/script.rpy:394
+#: game/script.rpy:421
 msgid "Hmm, let’s get you caffeinated."
 msgstr ""
 
-#: game/script.rpy:395
+#: game/script.rpy:422
 msgid "Caffeine good"
 msgstr ""
 
-#: game/script.rpy:398
+#: game/script.rpy:425
 msgid "Come again? Do you mean dirty chai?"
 msgstr ""
 
-#: game/script.rpy:399
+#: game/script.rpy:426
 msgid "uh...I guess"
 msgstr ""
 
-#: game/script.rpy:402
+#: game/script.rpy:429
 msgid "I see this isn’t your first time! One basic-white-girl coming right up!"
 msgstr ""
 
-#: game/script.rpy:403
+#: game/script.rpy:430
 msgid "Thanks fellow human!"
 msgstr ""
 
-#: game/script.rpy:409
+#: game/script.rpy:436
 msgid "*barista goes to make drink*"
 msgstr ""
 
-#: game/script.rpy:411
+#: game/script.rpy:438
 msgid "I swear that was the same person from..."
 msgstr ""
 
-#: game/script.rpy:413
+#: game/script.rpy:440
 msgid "Order up!"
 msgstr ""
 
-#: game/script.rpy:414
+#: game/script.rpy:441
 msgid "*almost falls over*"
 msgstr ""
 
-#: game/script.rpy:418
+#: game/script.rpy:445
 msgid "You have failed as a human. YOU LOSE"
 msgstr ""
 
-#: game/script.rpy:421
+#: game/script.rpy:448
 msgid "You have regained your humanity. YOU WIN"
 msgstr ""
 
