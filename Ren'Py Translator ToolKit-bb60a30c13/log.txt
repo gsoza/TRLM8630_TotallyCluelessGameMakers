@@ -1,39 +1,38 @@
-Mon May 16 20:23:40 2022
+Tue May 17 14:06:42 2022
 Darwin-21.4.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.09s
-Early init took 0.00s
+Bootstrap to the start of init.init took 0.11s
+Early init took 0.01s
 Loader init took 0.01s
 Loading error handling took 0.04s
-Loading script took 0.90s
+Loading script took 0.91s
 Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to "/Users/cdean248345/Library/RenPy/backups/Ren'Py Translator ToolKit-bb60a30c13":
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.30s
+Interface start took 0.44s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -46,9 +45,25 @@ Display Info: None
 Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(1600, 1200)
 Could not open 'cache/shaders.txt':
 Maximum texture size: 4096x4096
-Calling Ren'Py translate to get the latest strings
+Traceback (most recent call last):
+  File "game/choose_file.rpy", line 53, in choose_file
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE)
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/subprocess.py", line 325, in __init__
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/subprocess.py", line 978, in _execute_child
+OSError: [Errno 2] No such file or directory
+Calling Ren'Py translate to get latest strings
 Parsing /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/pot/options.rpy
 Parsing /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/pot/script.rpy
 Parsing /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/pot/common.rpy
 Parsing /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/pot/screens.rpy
-Wrote '/Users/cdean248345/Documents/GitHub/Untitled/Ren'Py Translator ToolKit-bb60a30c13/out/Into the World.pot'.
+Parsing  /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/spanish/options.rpy
+Parsing  /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/spanish/script.rpy
+Parsing  /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/spanish/common.rpy
+Parsing  /Users/cdean248345/Documents/GitHub/Untitled/Into the World/game/tl/spanish/screens.rpy
+Wrote '/Users/cdean248345/Documents/GitHub/Untitled/Ren'Py Translator ToolKit-bb60a30c13/out/Into the World-spanish.po'.
+Traceback (most recent call last):
+  File "game/choose_file.rpy", line 53, in choose_file
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE)
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/subprocess.py", line 325, in __init__
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/subprocess.py", line 978, in _execute_child
+OSError: [Errno 2] No such file or directory

@@ -1,0 +1,1964 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: game/options.rpy:15
+msgid "Zombie or Not"
+msgstr "Zombi o no"
+
+#: game/screens.rpy:261
+msgid "Back"
+msgstr "Atrás"
+
+#: game/screens.rpy:262
+msgid "History"
+msgstr "Historia"
+
+#: game/screens.rpy:263
+msgid "Skip"
+msgstr "Saltear"
+
+#: game/screens.rpy:264
+msgid "Auto"
+msgstr "Auto"
+
+#: game/screens.rpy:265
+msgid "Save"
+msgstr "Guardar"
+
+#: game/screens.rpy:266
+msgid "Q.Save"
+msgstr "Q.Guardar"
+
+#: game/screens.rpy:267
+msgid "Q.Load"
+msgstr "Q.Cargar"
+
+#: game/screens.rpy:268
+msgid "Prefs"
+msgstr "preferencias"
+
+#: game/screens.rpy:309
+msgid "Start"
+msgstr "Comienzo"
+
+#: game/screens.rpy:317
+msgid "Load"
+msgstr "Carga"
+
+#: game/screens.rpy:319
+msgid "Preferences"
+msgstr "preferencias"
+
+#: game/screens.rpy:323
+msgid "End Replay"
+msgstr "Finalizar reproducción"
+
+#: game/screens.rpy:327
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: game/screens.rpy:329
+msgid "About"
+msgstr "Acerca de"
+
+#: game/screens.rpy:334
+msgid "Help"
+msgstr "Ayudar"
+
+#: game/screens.rpy:340
+msgid "Quit"
+msgstr "Dejar"
+
+#: game/screens.rpy:481
+msgid "Return"
+msgstr "Devolver"
+
+#: game/screens.rpy:565
+msgid "Version [config.version!t]\n"
+msgstr "Versión [config.version!t]\n"
+
+#: game/screens.rpy:571
+msgid "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+msgstr "Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]. [renpy.license!t]"
+
+#: game/screens.rpy:607
+msgid "Page {}"
+msgstr "Página {}"
+
+#: game/screens.rpy:607
+msgid "Automatic saves"
+msgstr "Guardado automático"
+
+#: game/screens.rpy:607
+msgid "Quick saves"
+msgstr "Guardado rápido"
+
+#: game/screens.rpy:649
+msgid "{#file_time}%A, %B %d %Y, %H:%M"
+msgstr "{#file_time}%A, %B %d %Y, %H:%M"
+
+#: game/screens.rpy:649
+msgid "empty slot"
+msgstr "ranura vacía"
+
+#: game/screens.rpy:666
+msgid "<"
+msgstr "<"
+
+#: game/screens.rpy:669
+msgid "{#auto_page}A"
+msgstr "{#auto_page}A"
+
+#: game/screens.rpy:672
+msgid "{#quick_page}Q"
+msgstr "{#quick_page}P"
+
+#: game/screens.rpy:678
+msgid ">"
+msgstr ">"
+
+#: game/screens.rpy:735
+msgid "Display"
+msgstr "Mostrar"
+
+#: game/screens.rpy:736
+msgid "Window"
+msgstr "Ventana"
+
+#: game/screens.rpy:737
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: game/screens.rpy:741
+msgid "Rollback Side"
+msgstr "Lado de reversión"
+
+#: game/screens.rpy:742
+msgid "Disable"
+msgstr "Desactivar"
+
+#: game/screens.rpy:743
+msgid "Left"
+msgstr "Izquierda"
+
+#: game/screens.rpy:744
+msgid "Right"
+msgstr "Derecha"
+
+#: game/screens.rpy:749
+msgid "Unseen Text"
+msgstr "Texto invisible"
+
+#: game/screens.rpy:750
+msgid "After Choices"
+msgstr "Después de las opciones"
+
+#: game/screens.rpy:751
+msgid "Transitions"
+msgstr "Transiciones"
+
+#: game/screens.rpy:764
+msgid "Text Speed"
+msgstr "Velocidad del texto"
+
+#: game/screens.rpy:768
+msgid "Auto-Forward Time"
+msgstr "Tiempo de reenvío automático"
+
+#: game/screens.rpy:775
+msgid "Music Volume"
+msgstr "Volumen de la música"
+
+#: game/screens.rpy:782
+msgid "Sound Volume"
+msgstr "Volumen de sonido"
+
+#: game/screens.rpy:788
+msgid "Test"
+msgstr "Prueba"
+
+#: game/screens.rpy:792
+msgid "Voice Volume"
+msgstr "Volumen de voz"
+
+#: game/screens.rpy:803
+msgid "Mute All"
+msgstr "Silenciar todo"
+
+#: game/screens.rpy:922
+msgid "The dialogue history is empty."
+msgstr "El historial de diálogo está vacío."
+
+#: game/screens.rpy:992
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: game/screens.rpy:993
+msgid "Mouse"
+msgstr "Ratón"
+
+#: game/screens.rpy:996
+msgid "Gamepad"
+msgstr "mando"
+
+#: game/screens.rpy:1009
+msgid "Enter"
+msgstr "Ingresar"
+
+#: game/screens.rpy:1010
+msgid "Advances dialogue and activates the interface."
+msgstr "Avanza el diálogo y activa la interfaz."
+
+#: game/screens.rpy:1013
+msgid "Space"
+msgstr "Espacio"
+
+#: game/screens.rpy:1014
+msgid "Advances dialogue without selecting choices."
+msgstr "Avanza el diálogo sin seleccionar opciones."
+
+#: game/screens.rpy:1017
+msgid "Arrow Keys"
+msgstr "Teclas de flecha"
+
+#: game/screens.rpy:1018
+msgid "Navigate the interface."
+msgstr "Navegar por la interfaz."
+
+#: game/screens.rpy:1021
+msgid "Escape"
+msgstr "Escapar"
+
+#: game/screens.rpy:1022
+msgid "Accesses the game menu."
+msgstr "Accede al menú del juego."
+
+#: game/screens.rpy:1025
+msgid "Ctrl"
+msgstr "Control"
+
+#: game/screens.rpy:1026
+msgid "Skips dialogue while held down."
+msgstr "Salta el diálogo mientras se mantiene presionado."
+
+#: game/screens.rpy:1029
+msgid "Tab"
+msgstr "Pestaña"
+
+#: game/screens.rpy:1030
+msgid "Toggles dialogue skipping."
+msgstr "Alterna el salto de diálogo."
+
+#: game/screens.rpy:1033
+msgid "Page Up"
+msgstr "Página arriba"
+
+#: game/screens.rpy:1034
+msgid "Rolls back to earlier dialogue."
+msgstr "Vuelve al diálogo anterior."
+
+#: game/screens.rpy:1037
+msgid "Page Down"
+msgstr "Página abajo"
+
+#: game/screens.rpy:1038
+msgid "Rolls forward to later dialogue."
+msgstr "Avanza al diálogo posterior."
+
+#: game/screens.rpy:1042
+msgid "Hides the user interface."
+msgstr "Oculta la interfaz de usuario."
+
+#: game/screens.rpy:1046
+msgid "Takes a screenshot."
+msgstr "Toma una captura de pantalla."
+
+#: game/screens.rpy:1050
+msgid "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+msgstr "Alterna la asistencia {a=https://www.renpy.org/l/voicing}autovoicing{/a}."
+
+#: game/screens.rpy:1054
+msgid "Opens the accessibility menu."
+msgstr "Abre el menú de accesibilidad."
+
+#: game/screens.rpy:1060
+msgid "Left Click"
+msgstr "Click izquierdo"
+
+#: game/screens.rpy:1064
+msgid "Middle Click"
+msgstr "Clic central"
+
+#: game/screens.rpy:1068
+msgid "Right Click"
+msgstr "Botón derecho del ratón"
+
+#: game/screens.rpy:1072
+msgid "Mouse Wheel Up\nClick Rollback Side"
+msgstr "Rueda del mouse hacia arriba Haga clic en Retroceder lateral"
+
+#: game/screens.rpy:1076
+msgid "Mouse Wheel Down"
+msgstr "Rueda del ratón hacia abajo"
+
+#: game/screens.rpy:1083
+msgid "Right Trigger\nA/Bottom Button"
+msgstr "Gatillo derecho A/Botón inferior"
+
+#: game/screens.rpy:1087
+msgid "Left Trigger\nLeft Shoulder"
+msgstr "Gatillo izquierdo Hombro izquierdo"
+
+#: game/screens.rpy:1091
+msgid "Right Shoulder"
+msgstr "Hombro derecho"
+
+#: game/screens.rpy:1096
+msgid "D-Pad, Sticks"
+msgstr "D-Pad palos"
+
+#: game/screens.rpy:1100
+msgid "Start, Guide"
+msgstr "Inicio, Guía"
+
+#: game/screens.rpy:1104
+msgid "Y/Top Button"
+msgstr "Y/botón superior"
+
+#: game/screens.rpy:1107
+msgid "Calibrate"
+msgstr "Calibrar"
+
+#: game/screens.rpy:1172
+msgid "Yes"
+msgstr "Sí"
+
+#: game/screens.rpy:1173
+msgid "No"
+msgstr "No"
+
+#: game/screens.rpy:1219
+msgid "Skipping"
+msgstr "Salto a la comba"
+
+#: game/screens.rpy:1442
+msgid "Menu"
+msgstr "Menú"
+
+#: game/script.rpy:107
+msgid "<- Character 1"
+msgstr "<- Personaje 1"
+
+#: game/script.rpy:107
+msgid "Character 2 ->"
+msgstr "Personaje 2 ->"
+
+#: game/script.rpy:126
+msgid "Two years have passed, since Covid-57 struck the nation."
+msgstr "Han pasado dos años desde que el Covid-57 golpeó a la nación."
+
+#: game/script.rpy:127
+msgid "Families were forced to stay indoors to prevent the virus from spreading."
+msgstr "Las familias se vieron obligadas a quedarse en casa para evitar la propagación del virus."
+
+#: game/script.rpy:128
+msgid "Finally the lockdown has been lifted. Some were overjoyed at the opportunity to go out into the world again, socialize, see their friends, go to parties, coffee shops, shopping malls."
+msgstr "Finalmente se ha levantado el confinamiento. Algunos estaban encantados con la oportunidad de salir al mundo nuevamente, socializar, ver a sus amigos, ir a fiestas, cafeterías, centros comerciales."
+
+#: game/script.rpy:129
+msgid "But others felt the effects of the long-term isolation."
+msgstr "Pero otros sintieron los efectos del aislamiento a largo plazo."
+
+#: game/script.rpy:130
+msgid "The world was no longer a friendly place, and the very thought of seeing people..."
+msgstr "El mundo ya no era un lugar amigable, y la sola idea de ver gente..."
+
+#: game/script.rpy:131
+msgctxt "story_bb2cf764"
+msgid "..."
+msgstr "..."
+
+#: game/script.rpy:132
+msgid "6 months have passed since the lockdown was lifted."
+msgstr "Han pasado 6 meses desde que se levantó el confinamiento."
+
+#: game/script.rpy:133
+msgid "However, you, [name] did not dare step outside your front door, but instead remained within the walls of your apartment, only with your pet Iguana, [pet] as company."
+msgstr "Sin embargo, usted, [name], no se atrevió a salir por la puerta de su casa, sino que permaneció dentro de las paredes de su apartamento, solo con su mascota Iguana, [pet] como compañía."
+
+#: game/script.rpy:134
+msgid "Little did [name] know, all of this was about to change..."
+msgstr "Poco sabía [name] que todo esto estaba a punto de cambiar..."
+
+#: game/script.rpy:139
+msgid "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:"
+msgstr "[name] se despierta como de costumbre, enciende la computadora portátil y encuentra un mensaje de una dirección de correo electrónico extraña... el mensaje dice: \"Tenemos [pet], no intentes encontrarnos... si alguna vez quieres ver [pet] de nuevo, sigue estas instrucciones:"
+
+#: game/script.rpy:140
+msgid "*The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station. From there you will take said briefcase to a specified location.*"
+msgstr "*La nota te indica que completes una serie de tareas que te llevarán a un maletín en el casillero #420 ubicado en la estación de tren. Desde allí, llevará dicho maletín a una ubicación específica.*"
+
+#: game/script.rpy:149
+msgid "Check the Park"
+msgstr "Revisa el parque"
+
+#: game/script.rpy:149
+msgid "Head down the street"
+msgstr "Baja por la calle"
+
+#: game/script.rpy:149
+msgid "Go to the locker"
+msgstr "ir al casillero"
+
+#: game/script.rpy:149
+msgid "Go to the location"
+msgstr "Ir a la ubicación"
+
+#: game/script.rpy:152
+msgctxt "decision_74b147a3"
+msgid "I don't think I need to go there again"
+msgstr "No creo que necesite ir allí de nuevo."
+
+#: game/script.rpy:158
+msgctxt "decision_74b147a3_1"
+msgid "I don't think I need to go there again"
+msgstr "No creo que necesite ir allí de nuevo."
+
+#: game/script.rpy:164
+msgctxt "decision_74b147a3_2"
+msgid "I don't think I need to go there again"
+msgstr "No creo que necesite ir allí de nuevo."
+
+#: game/script.rpy:172
+msgid "Better not show up empty-handed"
+msgstr "Mejor no presentarse con las manos vacías"
+
+#: game/script.rpy:188
+msgid "Um...hi"
+msgstr "Um hola"
+
+#: game/script.rpy:189
+msgid "Can you help me find my doggie? I LOST MY DOGGIE"
+msgstr "¿Puedes ayudarme a encontrar a mi perrito? PERDÍ A MI PERRITO"
+
+#: game/script.rpy:191
+msgid "Heck no kiddo, dogs are GROSS"
+msgstr "Diablos, no chico, los perros son ASQUEROSOS"
+
+#: game/script.rpy:191
+msgid "Uh, sure...I can look around"
+msgstr "Uh, seguro... Puedo mirar alrededor"
+
+#: game/script.rpy:191
+msgid "I wish I could"
+msgstr "Ojalá pudiera"
+
+#: game/script.rpy:201
+msgid "You big meanie"
+msgstr "Tu gran malvado"
+
+#: game/script.rpy:202
+msgid "That was a pretty jerk move, come back when you learn not to bully little girls."
+msgstr "Ese fue un movimiento bastante idiota, regresa cuando aprendas a no intimidar a las niñas."
+
+#: game/script.rpy:207
+msgid "You're so nice!"
+msgstr "¡Eres muy agradable!"
+
+#: game/script.rpy:211
+msgid "*cry* please come back if you can!"
+msgstr "*llora* por favor regresa si puedes!"
+
+#: game/script.rpy:217
+msgid "Where should I look?"
+msgstr "¿Dónde debo buscar?"
+
+#: game/script.rpy:218
+msgid "Behind the tree"
+msgstr "Detras del arbol"
+
+#: game/script.rpy:218
+msgid "Behind the bush"
+msgstr "Detrás del arbusto"
+
+#: game/script.rpy:218
+msgid "Under a rock"
+msgstr "debajo de una roca"
+
+#: game/script.rpy:222
+msgid "Hey I found it! Come on boy!"
+msgstr "¡Oye, lo encontré! ¡Vamos muchacho!"
+
+#: game/script.rpy:224
+msgid "Hmm, he doesn't want to come with me"
+msgstr "Hmm, él no quiere venir conmigo"
+
+#: game/script.rpy:226
+msgid "Give toy"
+msgstr "dar juguete"
+
+#: game/script.rpy:230
+msgid "Let's go find your mom!"
+msgstr "¡Vamos a buscar a tu mamá!"
+
+#: game/script.rpy:233
+msgid "Maybe I should find something to give him"
+msgstr "Tal vez debería encontrar algo para darle"
+
+#: game/script.rpy:237
+msgid "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
+msgstr "Todo lo que veo es una botella rota, un paquete de cigarrillos vacío y una oreja ensangrentada... eww... Busquemos en otro lado"
+
+#: game/script.rpy:240
+msgid "I found a beetle...wait, I see a chew toy as well!"
+msgstr "Encontré un escarabajo... espera, ¡también veo un juguete para masticar!"
+
+#: game/script.rpy:241
+msgid "Take toy"
+msgstr "tomar juguete"
+
+#: game/script.rpy:241
+msgid "Leave toy"
+msgstr "dejar juguete"
+
+#: game/script.rpy:244
+msgid "Hmm, I bet he'll like this!"
+msgstr "Hmm, ¡apuesto a que le gustará esto!"
+
+#: game/script.rpy:255
+msgid "You found him! Thank you so much! Here, take this."
+msgstr "¡Lo encontraste! ¡Muchas gracias! Ten esto."
+
+#: game/script.rpy:256
+msgid "You got {b}loose change: $0.69{/b}"
+msgstr "Tienes {b}cambio suelto: 0,69 ${/b}"
+
+#: game/script.rpy:264
+msgid "Man, it's so hot today, I could really use a drink right now..."
+msgstr "Tío, hace tanto calor hoy que realmente me vendría bien un trago ahora mismo..."
+
+#: game/script.rpy:265
+msgid "Oh look, a vending machine, perfect!"
+msgstr "Oh mira, una máquina expendedora, ¡perfecto!"
+
+#: game/script.rpy:267
+msgid "Spare some change?"
+msgstr "¿Ahorrar algo de cambio?"
+
+#: game/script.rpy:269
+msgid "What?? A talking vending machine! Stay away from me!"
+msgstr "¿¿Qué?? ¡Una máquina expendedora parlante! ¡Mantente alejado de mí!"
+
+#: game/script.rpy:269
+msgid "Sure, but this is all I have"
+msgstr "Claro, pero esto es todo lo que tengo."
+
+#: game/script.rpy:271
+msgid "Wow, that was rude."
+msgstr "Vaya, eso fue grosero."
+
+#: game/script.rpy:272
+msgid "Vending machines are people too...sorta...anyway be nice."
+msgstr "Las máquinas expendedoras también son personas... más o menos... de todos modos, sé amable."
+
+#: game/script.rpy:276
+msgid "what is this a trick? It's just your hand. Got any {i}actual{/i} change??"
+msgstr "¿Qué es esto un truco? Es solo tu mano. ¿Tienes algún cambio {i}real{/i}?"
+
+#: game/script.rpy:280
+msgid "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
+msgstr "MMMMM, DELICIOSO, CAMBIO SUELTO. Ten esto."
+
+#: game/script.rpy:281
+msgid "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
+msgstr "Se cae una {b}llave{/b} de la {i}boca{/i} de la máquina expendedora"
+
+#: game/script.rpy:283
+msgid "But...what about my drink?"
+msgstr "Pero... ¿y mi bebida?"
+
+#: game/script.rpy:284
+msgctxt "vending_65cabcbf"
+msgid "..."
+msgstr "..."
+
+#: game/script.rpy:285
+msgid "oh well"
+msgstr "Oh bien"
+
+#: game/script.rpy:289
+msgid "Well I'll be right here if you {i}change{/i} your mind."
+msgstr "Bueno, aquí estaré si {i}cambias{/i} de opinión."
+
+#: game/script.rpy:296
+msgid "Okay, I made it to the locker. Let's get this thing open"
+msgstr "Está bien, llegué al casillero. Vamos a abrir esta cosa"
+
+#: game/script.rpy:297
+msgid "Open Locker"
+msgstr "casillero abierto"
+
+#: game/script.rpy:297
+msgid "Leave"
+msgstr "Abandonar"
+
+#: game/script.rpy:300
+msgid "Uh, I don't have anything to open this with."
+msgstr "Uh, no tengo nada para abrir esto."
+
+#: game/script.rpy:303
+msgid "You insert the {b}key{/b}"
+msgstr "Insertas la {b}clave{/b}"
+
+#: game/script.rpy:309
+msgid "Hey kid, what's the big idea? Watch where you're sticking that thing!"
+msgstr "Oye chico, ¿cuál es la gran idea? ¡Mira dónde estás metiendo esa cosa!"
+
+#: game/script.rpy:310
+msgid "Oh great...another talking object"
+msgstr "Oh genial... otro objeto parlante"
+
+#: game/script.rpy:311
+msgid "F*ck this sh*t, I'm out"
+msgstr "A la mierda con esto, me voy"
+
+#: game/script.rpy:311
+msgid "I don't have time for this."
+msgstr "No tengo tiempo para esto."
+
+#: game/script.rpy:311
+msgid "Look, I'm just trying to get the briefcase inside so I can rescue [pet]"
+msgstr "Mira, solo estoy tratando de meter el maletín adentro para poder rescatar a [pet]"
+
+#: game/script.rpy:314
+msgid "yeah you gangsta, now come back when you wanna play nice"
+msgstr "sí, gangsta, ahora vuelve cuando quieras jugar bien"
+
+#: game/script.rpy:317
+msgid "meh, another day then."
+msgstr "meh, otro día entonces."
+
+#: game/script.rpy:320
+msgid "Well, I don't know what a [pet] is, but that key ain't gonna work. Kids these days, gotta tell 'em how to do everything I tell ya."
+msgstr "Bueno, no sé qué es una [pet], pero esa llave no va a funcionar. Niños en estos días, tengo que decirles cómo hacer todo lo que les digo."
+
+#: game/script.rpy:321
+msgid "Jerk..."
+msgstr "Tirón..."
+
+#: game/script.rpy:321
+msgid "Ok, what should I do then?"
+msgstr "Bien, ¿qué debo hacer entonces?"
+
+#: game/script.rpy:323
+msgid "Again with the social faux-pas"
+msgstr "De nuevo con el paso en falso social"
+
+#: game/script.rpy:328
+msgid "You look like a nice kid, I'll help ya out."
+msgstr "Pareces un buen chico, te ayudaré."
+
+#: game/script.rpy:329
+msgid "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
+msgstr "Todo lo que tienes que hacer es acercarte a ese tipo en el puesto de allí. Él puede darte la combinación. ¿Fácil verdad?"
+
+#: game/script.rpy:330
+msgid "Ok, here goes."
+msgstr "Vale, aquí va."
+
+#: game/script.rpy:334
+msgid "Hiya! How can I help you?"
+msgstr "¡Hola! ¿Como puedo ayudarte?"
+
+#: game/script.rpy:335
+msgid "*babbles incoherently*"
+msgstr "*balbucea incoherentemente*"
+
+#: game/script.rpy:335
+msgid "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?"
+msgstr "(tartamudeando) ¿Puedes..h..ayudarme t..t..a abrir el casillero 420 p..por favor?"
+
+#: game/script.rpy:335
+msgid "GIMME THE LOCKER COMBINATION!"
+msgstr "¡DAME LA COMBINACIÓN DEL LOCKER!"
+
+#: game/script.rpy:337
+msgid "The attendant looks at you, confused, then turns away."
+msgstr "El asistente te mira, confundido, luego se aleja."
+
+#: game/script.rpy:338
+msgid "Maybe try using people words"
+msgstr "Tal vez intente usar palabras de personas"
+
+#: game/script.rpy:341
+msgid "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
+msgstr "El simpático asistente te ayuda a abrir el casillero y agradece tu cortesía habitual."
+
+#: game/script.rpy:343
+msgid "You retrieved the {b}briefcase{/b}"
+msgstr "Recuperaste el {b}maletín{/b}"
+
+#: game/script.rpy:348
+msgid "That was intense"
+msgstr "eso fue intenso"
+
+#: game/script.rpy:353
+msgid "Ok, here we are..."
+msgstr "Bien, aquí estamos..."
+
+#: game/script.rpy:354
+msgid "Congratulations, [name]! You made it to the final destination. Hope [pet] is still breathing..."
+msgstr "¡Felicitaciones, [name]! Llegaste al destino final. Espero que [pet] siga respirando..."
+
+#: game/script.rpy:355
+msgid "Who said that??"
+msgstr "¿¿Quien dijo que??"
+
+#: game/script.rpy:356
+msgid "I should probably open this door..."
+msgstr "Probablemente debería abrir esta puerta..."
+
+#: game/script.rpy:357
+msgid "Open door"
+msgstr "Puerta abierta"
+
+#: game/script.rpy:357
+msgid "Run away"
+msgstr "Huir"
+
+#: game/script.rpy:361
+msgid "You've come so far, just one more step."
+msgstr "Has llegado tan lejos, solo un paso más."
+
+#: game/script.rpy:365
+msgid "SURPRISE!!!"
+msgstr "¡¡¡SORPRESA!!!"
+
+#: game/script.rpy:366
+msgid "[pet]??"
+msgstr "[pet]??"
+
+#: game/script.rpy:377
+msgid "We arranged this suprise party challenge for you."
+msgstr "Organizamos este desafío de fiesta sorpresa para ti."
+
+#: game/script.rpy:378
+msgid "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
+msgstr "Nos preocupaba mucho que estuvieras solo todo el tiempo y queríamos que salieras y vivieses de nuevo."
+
+#: game/script.rpy:379
+msgid "It was definitely a strange adventure, but was a lot of fun. I'm glad [pet] is okay!"
+msgstr "Definitivamente fue una aventura extraña, pero muy divertida. ¡Me alegro de que [pet] esté bien!"
+
+#: game/script.rpy:380
+msgid "*happy noises*"
+msgstr "*sonidos felices*"
+
+#: game/script.rpy:385
+msgid "yay you got the thing and everyone dies, how bout some coffee?"
+msgstr "yay tienes la cosa y todos mueren, ¿qué tal un poco de café?"
+
+#: game/script.rpy:390
+msgid "Hi, welcome to Zombucks, how can I help you?"
+msgstr "Hola, bienvenido a Zombucks, ¿cómo puedo ayudarte?"
+
+#: game/script.rpy:391
+msgid "Didn't I just see you at...uh...nevermind"
+msgstr "¿No te acabo de ver en... uh... no importa?"
+
+#: game/script.rpy:392
+msgid "Need…coffee…*groan*"
+msgstr "Necesito… café… *gemido*"
+
+#: game/script.rpy:392
+msgid "One bloody chai, please"
+msgstr "Un maldito chai, por favor"
+
+#: game/script.rpy:392
+msgid "I’ll have a vanilla oat decaf double shot mocha frappuccino with a twist"
+msgstr "Tomaré un frappuccino de moka de vainilla y avena descafeinado con un toque especial"
+
+#: game/script.rpy:394
+msgid "Hmm, let’s get you caffeinated."
+msgstr "Hmm, vamos a ponerte cafeinado."
+
+#: game/script.rpy:395
+msgid "Caffeine good"
+msgstr "cafeina buena"
+
+#: game/script.rpy:398
+msgid "Come again? Do you mean dirty chai?"
+msgstr "¿Llegar de nuevo? ¿Quieres decir sucio chai?"
+
+#: game/script.rpy:399
+msgid "uh...I guess"
+msgstr "eh... supongo"
+
+#: game/script.rpy:402
+msgid "I see this isn’t your first time! One basic-white-girl coming right up!"
+msgstr "¡Veo que no es tu primera vez! ¡Una chica blanca básica que viene enseguida!"
+
+#: game/script.rpy:403
+msgid "Thanks fellow human!"
+msgstr "¡Gracias compañero humano!"
+
+#: game/script.rpy:409
+msgid "*barista goes to make drink*"
+msgstr "*barista va a hacer una bebida*"
+
+#: game/script.rpy:411
+msgid "I swear that was the same person from..."
+msgstr "Te juro que era la misma persona de..."
+
+#: game/script.rpy:413
+msgid "Order up!"
+msgstr "¡Ordena!"
+
+#: game/script.rpy:414
+msgid "*almost falls over*"
+msgstr "*casi se cae*"
+
+#: game/script.rpy:418
+msgid "You have failed as a human. YOU LOSE"
+msgstr "Has fallado como humano. TÚ PIERDES"
+
+#: game/script.rpy:421
+msgid "You have regained your humanity. YOU WIN"
+msgstr "Has recuperado tu humanidad. TÚ GANAS"
+
+#: renpy/common/00accessibility.rpy:28
+msgid "Self-voicing disabled."
+msgstr "Voz propia deshabilitada."
+
+#: renpy/common/00accessibility.rpy:29
+msgid "Clipboard voicing enabled. "
+msgstr "Voz del portapapeles habilitada. "
+
+#: renpy/common/00accessibility.rpy:30
+msgid "Self-voicing enabled. "
+msgstr "Voz propia habilitada. "
+
+#: renpy/common/00accessibility.rpy:32
+msgid "bar"
+msgstr "bar"
+
+#: renpy/common/00accessibility.rpy:33
+msgid "selected"
+msgstr "seleccionado"
+
+#: renpy/common/00accessibility.rpy:34
+msgid "viewport"
+msgstr "mirador"
+
+#: renpy/common/00accessibility.rpy:35
+msgid "horizontal scroll"
+msgstr "desplazamiento horizontal"
+
+#: renpy/common/00accessibility.rpy:36
+msgid "vertical scroll"
+msgstr "desplazamiento vertical"
+
+#: renpy/common/00accessibility.rpy:37
+msgid "activate"
+msgstr "activar"
+
+#: renpy/common/00accessibility.rpy:38
+msgid "deactivate"
+msgstr "desactivar"
+
+#: renpy/common/00accessibility.rpy:39
+msgid "increase"
+msgstr "incrementar"
+
+#: renpy/common/00accessibility.rpy:40
+msgid "decrease"
+msgstr "disminuir"
+
+#: renpy/common/00accessibility.rpy:138
+msgid "Font Override"
+msgstr "Anulación de fuente"
+
+#: renpy/common/00accessibility.rpy:142
+msgid "Default"
+msgstr "Defecto"
+
+#: renpy/common/00accessibility.rpy:146
+msgid "DejaVu Sans"
+msgstr "Deja Vu Sans"
+
+#: renpy/common/00accessibility.rpy:150
+msgid "Opendyslexic"
+msgstr "abiertodisléxico"
+
+#: renpy/common/00accessibility.rpy:156
+msgid "Text Size Scaling"
+msgstr "Escala de tamaño de texto"
+
+#: renpy/common/00accessibility.rpy:162
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: renpy/common/00accessibility.rpy:168
+msgid "Line Spacing Scaling"
+msgstr "Escalado de interlineado"
+
+#: renpy/common/00accessibility.rpy:180
+msgid "High Contrast Text"
+msgstr "Texto de alto contraste"
+
+#: renpy/common/00accessibility.rpy:182
+msgid "Enable"
+msgstr "Permitir"
+
+#: renpy/common/00accessibility.rpy:193
+msgid "Self-Voicing"
+msgstr "Voz propia"
+
+#: renpy/common/00accessibility.rpy:197
+msgid "Off"
+msgstr "Apagado"
+
+#: renpy/common/00accessibility.rpy:201
+msgid "Text-to-speech"
+msgstr "Texto a voz"
+
+#: renpy/common/00accessibility.rpy:205
+msgid "Clipboard"
+msgstr "Portapapeles"
+
+#: renpy/common/00accessibility.rpy:209
+msgid "Debug"
+msgstr "Depurar"
+
+#: renpy/common/00accessibility.rpy:215
+msgid "Self-Voicing Volume Drop"
+msgstr "Caída de volumen de voz propia"
+
+#: renpy/common/00accessibility.rpy:224
+msgid "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+msgstr "Las opciones de este menú están destinadas a mejorar la accesibilidad. Es posible que no funcionen con todos los juegos, y algunas combinaciones de opciones pueden hacer que el juego no se pueda jugar. Esto no es un problema con el juego o el motor. Para obtener los mejores resultados al cambiar las fuentes, intente mantener el tamaño del texto igual que originalmente."
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Monday"
+msgstr "{#weekday}lunes"
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Tuesday"
+msgstr "{#weekday}martes"
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Wednesday"
+msgstr "{#weekday}miércoles"
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Thursday"
+msgstr "{#weekday}jueves"
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Friday"
+msgstr "{#weekday}viernes"
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Saturday"
+msgstr "{#weekday}sábado"
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Sunday"
+msgstr "{#weekday}domingo"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Mon"
+msgstr "{#weekday_short}lunes"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Tue"
+msgstr "{#weekday_short}martes"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Wed"
+msgstr "{#weekday_short}miércoles"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Thu"
+msgstr "{#weekday_short}jueves"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Fri"
+msgstr "{#weekday_short}vie"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Sat"
+msgstr "{#weekday_short}sábado"
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Sun"
+msgstr "{#weekday_short}dom"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}January"
+msgstr "{#month}enero"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}February"
+msgstr "{#month}febrero"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}March"
+msgstr "{#mes de marzo"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}April"
+msgstr "{#month}abril"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}May"
+msgstr "{#mes de mayo"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}June"
+msgstr "{#month}junio"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}July"
+msgstr "{#month}julio"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}August"
+msgstr "{#month}agosto"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}September"
+msgstr "{#month}septiembre"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}October"
+msgstr "{#month}octubre"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}November"
+msgstr "{#month}noviembre"
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}December"
+msgstr "{#month}diciembre"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Jan"
+msgstr "{#month_short}enero"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Feb"
+msgstr "{#month_short}febrero"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Mar"
+msgstr "{#month_short}marzo"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Apr"
+msgstr "{#month_short}abril"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}May"
+msgstr "{#month_short}mayo"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Jun"
+msgstr "{#month_short}junio"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Jul"
+msgstr "{#month_short}julio"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Aug"
+msgstr "{#month_short}agosto"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Sep"
+msgstr "{#month_short}septiembre"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Oct"
+msgstr "{#month_short}octubre"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Nov"
+msgstr "{#month_short}noviembre"
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Dec"
+msgstr "{#month_short}diciembre"
+
+#: renpy/common/00action_file.rpy:250
+msgid "%b %d, %H:%M"
+msgstr "%b %d, %H:%M"
+
+#: renpy/common/00action_file.rpy:363
+msgid "Save slot %s: [text]"
+msgstr "Guardar espacio %s: [text]"
+
+#: renpy/common/00action_file.rpy:444
+msgid "Load slot %s: [text]"
+msgstr "Espacio de carga %s: [text]"
+
+#: renpy/common/00action_file.rpy:497
+msgid "Delete slot [text]"
+msgstr "Eliminar ranura [text]"
+
+#: renpy/common/00action_file.rpy:576
+msgid "File page auto"
+msgstr "Página de archivo automática"
+
+#: renpy/common/00action_file.rpy:578
+msgid "File page quick"
+msgstr "Página de archivo rápido"
+
+#: renpy/common/00action_file.rpy:580
+msgid "File page [text]"
+msgstr "Página de archivo [text]"
+
+#: renpy/common/00action_file.rpy:779
+msgid "Next file page."
+msgstr "Página del archivo siguiente."
+
+#: renpy/common/00action_file.rpy:851
+msgid "Previous file page."
+msgstr "Página del archivo anterior."
+
+#: renpy/common/00action_file.rpy:912
+msgid "Quick save complete."
+msgstr "Guardado rápido completo."
+
+#: renpy/common/00action_file.rpy:930
+msgid "Quick save."
+msgstr "Guardado rápido."
+
+#: renpy/common/00action_file.rpy:949
+msgid "Quick load."
+msgstr "Carga rápida."
+
+#: renpy/common/00action_other.rpy:375
+msgid "Language [text]"
+msgstr "Idioma [text]"
+
+#: renpy/common/00director.rpy:708
+msgid "The interactive director is not enabled here."
+msgstr "El director interactivo no está habilitado aquí."
+
+#: renpy/common/00director.rpy:1481
+msgid "⬆"
+msgstr "⬆"
+
+#: renpy/common/00director.rpy:1487
+msgid "⬇"
+msgstr "⬇"
+
+#: renpy/common/00director.rpy:1551
+msgid "Done"
+msgstr "Hecho"
+
+#: renpy/common/00director.rpy:1561
+msgid "(statement)"
+msgstr "(declaración)"
+
+#: renpy/common/00director.rpy:1562
+msgid "(tag)"
+msgstr "(etiqueta)"
+
+#: renpy/common/00director.rpy:1563
+msgid "(attributes)"
+msgstr "(atributos)"
+
+#: renpy/common/00director.rpy:1564
+msgid "(transform)"
+msgstr "(transformar)"
+
+#: renpy/common/00director.rpy:1589
+msgid "(transition)"
+msgstr "(transición)"
+
+#: renpy/common/00director.rpy:1601
+msgid "(channel)"
+msgstr "(canal)"
+
+#: renpy/common/00director.rpy:1602
+msgid "(filename)"
+msgstr "(nombre del archivo)"
+
+#: renpy/common/00director.rpy:1631
+msgid "Change"
+msgstr "Cambio"
+
+#: renpy/common/00director.rpy:1633
+msgid "Add"
+msgstr "Agregar"
+
+#: renpy/common/00director.rpy:1636
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: renpy/common/00director.rpy:1639
+msgid "Remove"
+msgstr "Remover"
+
+#: renpy/common/00director.rpy:1674
+msgid "Statement:"
+msgstr "Declaración:"
+
+#: renpy/common/00director.rpy:1695
+msgid "Tag:"
+msgstr "Etiqueta:"
+
+#: renpy/common/00director.rpy:1711
+msgid "Attributes:"
+msgstr "Atributos:"
+
+#: renpy/common/00director.rpy:1729
+msgid "Transforms:"
+msgstr "Transforma:"
+
+#: renpy/common/00director.rpy:1748
+msgid "Behind:"
+msgstr "Detrás:"
+
+#: renpy/common/00director.rpy:1767
+msgid "Transition:"
+msgstr "Transición:"
+
+#: renpy/common/00director.rpy:1785
+msgid "Channel:"
+msgstr "Canal:"
+
+#: renpy/common/00director.rpy:1803
+msgid "Audio Filename:"
+msgstr "Nombre de archivo de audio:"
+
+#: renpy/common/00gallery.rpy:590
+msgid "Image [index] of [count] locked."
+msgstr "Imagen [index] de [count] bloqueada."
+
+#: renpy/common/00gallery.rpy:610
+msgid "prev"
+msgstr "anterior"
+
+#: renpy/common/00gallery.rpy:611
+msgid "next"
+msgstr "Siguiente"
+
+#: renpy/common/00gallery.rpy:612
+msgid "slideshow"
+msgstr "diapositivas"
+
+#: renpy/common/00gallery.rpy:613
+msgid "return"
+msgstr "devolver"
+
+#: renpy/common/00gamepad.rpy:32
+msgid "Select Gamepad to Calibrate"
+msgstr "Seleccione Gamepad para calibrar"
+
+#: renpy/common/00gamepad.rpy:35
+msgid "No Gamepads Available"
+msgstr "No hay mandos disponibles"
+
+#: renpy/common/00gamepad.rpy:54
+msgid "Calibrating [name] ([i]/[total])"
+msgstr "Calibrando [name] ([i]/[total])"
+
+#: renpy/common/00gamepad.rpy:58
+msgid "Press or move the '[control!s]' [kind]."
+msgstr "Presiona o mueve el '[control!s]' [kind]."
+
+#: renpy/common/00gamepad.rpy:68
+msgid "Skip (A)"
+msgstr "Salta A)"
+
+#: renpy/common/00gamepad.rpy:71
+msgid "Back (B)"
+msgstr "Volver (B)"
+
+#: renpy/common/00gltest.rpy:89
+msgid "Renderer"
+msgstr "renderizador"
+
+#: renpy/common/00gltest.rpy:93
+msgid "Automatically Choose"
+msgstr "Elegir automáticamente"
+
+#: renpy/common/00gltest.rpy:100
+msgid "Force GL Renderer"
+msgstr "Forzar renderizador GL"
+
+#: renpy/common/00gltest.rpy:105
+msgid "Force ANGLE Renderer"
+msgstr "Renderizador Force ANGLE"
+
+#: renpy/common/00gltest.rpy:110
+msgid "Force GLES Renderer"
+msgstr "Forzar renderizador GLES"
+
+#: renpy/common/00gltest.rpy:116
+msgid "Force GL2 Renderer"
+msgstr "Forzar renderizador GL2"
+
+#: renpy/common/00gltest.rpy:121
+msgid "Force ANGLE2 Renderer"
+msgstr "Forzar renderizador ANGLE2"
+
+#: renpy/common/00gltest.rpy:126
+msgid "Force GLES2 Renderer"
+msgstr "Forzar renderizador GLES2"
+
+#: renpy/common/00gltest.rpy:136
+msgid "Enable (No Blocklist)"
+msgstr "Habilitar (sin lista de bloqueo)"
+
+#: renpy/common/00gltest.rpy:159
+msgid "Powersave"
+msgstr "Ahorro de energía"
+
+#: renpy/common/00gltest.rpy:173
+msgid "Framerate"
+msgstr "Cuadros por segundo"
+
+#: renpy/common/00gltest.rpy:177
+msgid "Screen"
+msgstr "Pantalla"
+
+#: renpy/common/00gltest.rpy:181
+msgid "60"
+msgstr "60"
+
+#: renpy/common/00gltest.rpy:185
+msgid "30"
+msgstr "30"
+
+#: renpy/common/00gltest.rpy:191
+msgid "Tearing"
+msgstr "lagrimeo"
+
+#: renpy/common/00gltest.rpy:207
+msgid "Changes will take effect the next time this program is run."
+msgstr "Los cambios surtirán efecto la próxima vez que se ejecute este programa."
+
+#: renpy/common/00gltest.rpy:242
+msgid "Performance Warning"
+msgstr "Advertencia de rendimiento"
+
+#: renpy/common/00gltest.rpy:247
+msgid "This computer is using software rendering."
+msgstr "Esta computadora está utilizando renderizado de software."
+
+#: renpy/common/00gltest.rpy:249
+msgid "This game requires use of GL2 that can't be initialised."
+msgstr "Este juego requiere el uso de GL2 que no se puede inicializar."
+
+#: renpy/common/00gltest.rpy:251
+msgid "This computer has a problem displaying graphics: [problem]."
+msgstr "Esta computadora tiene un problema al mostrar gráficos: [problema]."
+
+#: renpy/common/00gltest.rpy:255
+msgid "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display."
+msgstr "Sus controladores de gráficos pueden estar desactualizados o no funcionar correctamente. Esto puede conducir a una visualización de gráficos lenta o incorrecta."
+
+#: renpy/common/00gltest.rpy:259
+msgid "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
+msgstr "El archivo {a=edit:1:log.txt}log.txt{/a} puede contener información que le ayude a determinar el problema de su equipo."
+
+#: renpy/common/00gltest.rpy:264
+msgid "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
+msgstr "Puede encontrar más detalles sobre cómo solucionar este problema en la {a=[url]}documentación{/a}."
+
+#: renpy/common/00gltest.rpy:269
+msgid "Continue, Show this warning again"
+msgstr "Continuar, mostrar esta advertencia nuevamente"
+
+#: renpy/common/00gltest.rpy:273
+msgid "Continue, Don't show warning again"
+msgstr "Continuar, no volver a mostrar la advertencia"
+
+#: renpy/common/00gltest.rpy:281
+msgid "Change render options"
+msgstr "Cambiar las opciones de renderizado"
+
+#: renpy/common/00gui.rpy:423
+msgid "Are you sure?"
+msgstr "¿Está seguro?"
+
+#: renpy/common/00gui.rpy:424
+msgid "Are you sure you want to delete this save?"
+msgstr "¿Está seguro de que desea eliminar este guardado?"
+
+#: renpy/common/00gui.rpy:425
+msgid "Are you sure you want to overwrite your save?"
+msgstr "¿Está seguro de que desea sobrescribir su guardado?"
+
+#: renpy/common/00gui.rpy:426
+msgid "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+msgstr "La carga perderá el progreso no guardado. ¿Seguro que quieres hacer esto?"
+
+#: renpy/common/00gui.rpy:427
+msgid "Are you sure you want to quit?"
+msgstr "¿Seguro que quieres salir?"
+
+#: renpy/common/00gui.rpy:428
+msgid "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+msgstr "¿Estás seguro de que quieres volver al menú principal? Esto perderá el progreso no guardado."
+
+#: renpy/common/00gui.rpy:429
+msgid "Are you sure you want to end the replay?"
+msgstr "¿Seguro que quieres terminar la repetición?"
+
+#: renpy/common/00gui.rpy:430
+msgid "Are you sure you want to begin skipping?"
+msgstr "¿Está seguro de que desea comenzar a saltar?"
+
+#: renpy/common/00gui.rpy:431
+msgid "Are you sure you want to skip to the next choice?"
+msgstr "¿Está seguro de que desea pasar a la siguiente opción?"
+
+#: renpy/common/00gui.rpy:432
+msgid "Are you sure you want to skip unseen dialogue to the next choice?"
+msgstr "¿Está seguro de que desea saltar el diálogo invisible a la siguiente opción?"
+
+#: renpy/common/00iap.rpy:219
+msgid "Contacting App Store\nPlease Wait..."
+msgstr "Contactando con App Store Por favor espere..."
+
+#: renpy/common/00keymap.rpy:306
+msgid "Failed to save screenshot as %s."
+msgstr "No se pudo guardar la captura de pantalla como %s."
+
+#: renpy/common/00keymap.rpy:318
+msgid "Saved screenshot as %s."
+msgstr "Captura de pantalla guardada como %s."
+
+#: renpy/common/00library.rpy:195
+msgid "Skip Mode"
+msgstr "Modo de omisión"
+
+#: renpy/common/00library.rpy:281
+msgid "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+msgstr "Este programa contiene software gratuito bajo varias licencias, incluida la licencia MIT y la licencia pública general reducida de GNU. Puede encontrar una lista completa de software, incluidos enlaces al código fuente completo, {a=https://www.renpy.org/l/license}aquí{/a}."
+
+#: renpy/common/00preferences.rpy:254
+msgid "display"
+msgstr "mostrar"
+
+#: renpy/common/00preferences.rpy:266
+msgid "transitions"
+msgstr "transiciones"
+
+#: renpy/common/00preferences.rpy:275
+msgid "skip transitions"
+msgstr "saltar transiciones"
+
+#: renpy/common/00preferences.rpy:277
+msgid "video sprites"
+msgstr "sprites de vídeo"
+
+#: renpy/common/00preferences.rpy:286
+msgid "show empty window"
+msgstr "mostrar ventana vacía"
+
+#: renpy/common/00preferences.rpy:295
+msgid "text speed"
+msgstr "velocidad del texto"
+
+#: renpy/common/00preferences.rpy:303
+msgid "joystick"
+msgstr "palanca de mando"
+
+#: renpy/common/00preferences.rpy:303
+msgid "joystick..."
+msgstr "palanca de mando..."
+
+#: renpy/common/00preferences.rpy:310
+msgid "skip"
+msgstr "saltear"
+
+#: renpy/common/00preferences.rpy:313
+msgid "skip unseen [text]"
+msgstr "saltar invisible [text]"
+
+#: renpy/common/00preferences.rpy:318
+msgid "skip unseen text"
+msgstr "saltar texto no visto"
+
+#: renpy/common/00preferences.rpy:320
+msgid "begin skipping"
+msgstr "empezar a saltar"
+
+#: renpy/common/00preferences.rpy:324
+msgid "after choices"
+msgstr "después de las opciones"
+
+#: renpy/common/00preferences.rpy:331
+msgid "skip after choices"
+msgstr "saltar después de las opciones"
+
+#: renpy/common/00preferences.rpy:333
+msgid "auto-forward time"
+msgstr "tiempo de reenvío automático"
+
+#: renpy/common/00preferences.rpy:347
+msgid "auto-forward"
+msgstr "reenvío automático"
+
+#: renpy/common/00preferences.rpy:354
+msgid "Auto forward"
+msgstr "Reenvío automático"
+
+#: renpy/common/00preferences.rpy:357
+msgid "auto-forward after click"
+msgstr "reenvío automático después de hacer clic"
+
+#: renpy/common/00preferences.rpy:366
+msgid "automatic move"
+msgstr "movimiento automático"
+
+#: renpy/common/00preferences.rpy:375
+msgid "wait for voice"
+msgstr "espera la voz"
+
+#: renpy/common/00preferences.rpy:384
+msgid "voice sustain"
+msgstr "sostener la voz"
+
+#: renpy/common/00preferences.rpy:393
+msgid "self voicing"
+msgstr "voz propia"
+
+#: renpy/common/00preferences.rpy:402
+msgid "self voicing volume drop"
+msgstr "caída de volumen de voz propia"
+
+#: renpy/common/00preferences.rpy:410
+msgid "clipboard voicing"
+msgstr "portapapeles"
+
+#: renpy/common/00preferences.rpy:419
+msgid "debug voicing"
+msgstr "voz de depuración"
+
+#: renpy/common/00preferences.rpy:428
+msgid "emphasize audio"
+msgstr "enfatizar audio"
+
+#: renpy/common/00preferences.rpy:437
+msgid "rollback side"
+msgstr "lado de reversión"
+
+#: renpy/common/00preferences.rpy:447
+msgid "gl powersave"
+msgstr "ahorro de energía gl"
+
+#: renpy/common/00preferences.rpy:453
+msgid "gl framerate"
+msgstr "velocidad de fotogramas gl"
+
+#: renpy/common/00preferences.rpy:456
+msgid "gl tearing"
+msgstr "lagrimeo"
+
+#: renpy/common/00preferences.rpy:459
+msgid "font transform"
+msgstr "transformación de fuente"
+
+#: renpy/common/00preferences.rpy:462
+msgid "font size"
+msgstr "tamaño de fuente"
+
+#: renpy/common/00preferences.rpy:470
+msgid "font line spacing"
+msgstr "espaciado de línea de fuente"
+
+#: renpy/common/00preferences.rpy:478
+msgid "system cursor"
+msgstr "cursor del sistema"
+
+#: renpy/common/00preferences.rpy:487
+msgid "renderer menu"
+msgstr "menú del renderizador"
+
+#: renpy/common/00preferences.rpy:490
+msgid "accessibility menu"
+msgstr "menú de accesibilidad"
+
+#: renpy/common/00preferences.rpy:493
+msgid "high contrast text"
+msgstr "texto de alto contraste"
+
+#: renpy/common/00preferences.rpy:512
+msgid "music volume"
+msgstr "Volumen de la música"
+
+#: renpy/common/00preferences.rpy:513
+msgid "sound volume"
+msgstr "volumen de sonido"
+
+#: renpy/common/00preferences.rpy:514
+msgid "voice volume"
+msgstr "volumen de voz"
+
+#: renpy/common/00preferences.rpy:515
+msgid "mute music"
+msgstr "musica muda"
+
+#: renpy/common/00preferences.rpy:516
+msgid "mute sound"
+msgstr "Sin sonido"
+
+#: renpy/common/00preferences.rpy:517
+msgid "mute voice"
+msgstr "voz muda"
+
+#: renpy/common/00preferences.rpy:518
+msgid "mute all"
+msgstr "silenciar todo"
+
+#: renpy/common/00preferences.rpy:599
+msgid "Clipboard voicing enabled. Press 'shift+C' to disable."
+msgstr "Voz del portapapeles habilitada. Presiona 'shift+C' para deshabilitar."
+
+#: renpy/common/00preferences.rpy:601
+msgid "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
+msgstr "La voz propia diría \"[renpy.display.tts.last]\". Presiona 'alt+shift+V' para deshabilitar."
+
+#: renpy/common/00preferences.rpy:603
+msgid "Self-voicing enabled. Press 'v' to disable."
+msgstr "Voz propia habilitada. Pulse 'v' para desactivar."
+
+#: renpy/common/00updater.rpy:391
+msgid "The Ren'Py Updater is not supported on mobile devices."
+msgstr "Ren'Py Updater no es compatible con dispositivos móviles."
+
+#: renpy/common/00updater.rpy:520
+msgid "An error is being simulated."
+msgstr "Se está simulando un error."
+
+#: renpy/common/00updater.rpy:704
+msgid "Either this project does not support updating, or the update status file was deleted."
+msgstr "Este proyecto no admite la actualización o se eliminó el archivo de estado de actualización."
+
+#: renpy/common/00updater.rpy:718
+msgid "This account does not have permission to perform an update."
+msgstr "Esta cuenta no tiene permiso para realizar una actualización."
+
+#: renpy/common/00updater.rpy:721
+msgid "This account does not have permission to write the update log."
+msgstr "Esta cuenta no tiene permiso para escribir el registro de actualización."
+
+#: renpy/common/00updater.rpy:746
+msgid "Could not verify update signature."
+msgstr "No se pudo verificar la firma de actualización."
+
+#: renpy/common/00updater.rpy:1013
+msgid "The update file was not downloaded."
+msgstr "No se descargó el archivo de actualización."
+
+#: renpy/common/00updater.rpy:1031
+msgid "The update file does not have the correct digest - it may have been corrupted."
+msgstr "El archivo de actualización no tiene el resumen correcto; es posible que esté dañado."
+
+#: renpy/common/00updater.rpy:1181
+msgid "While unpacking {}, unknown type {}."
+msgstr "Al desempaquetar {}, tipo desconocido {}."
+
+#: renpy/common/00updater.rpy:1553
+msgid "Updater"
+msgstr "actualizador"
+
+#: renpy/common/00updater.rpy:1560
+msgid "An error has occured:"
+msgstr "Ha ocurrido un error:"
+
+#: renpy/common/00updater.rpy:1562
+msgid "Checking for updates."
+msgstr "Comprobando actualizaciones."
+
+#: renpy/common/00updater.rpy:1564
+msgid "This program is up to date."
+msgstr "Este programa está actualizado."
+
+#: renpy/common/00updater.rpy:1566
+msgid "[u.version] is available. Do you want to install it?"
+msgstr "[u.version] está disponible. ¿Quieres instalarlo?"
+
+#: renpy/common/00updater.rpy:1568
+msgid "Preparing to download the updates."
+msgstr "Preparándose para descargar las actualizaciones."
+
+#: renpy/common/00updater.rpy:1570
+msgid "Downloading the updates."
+msgstr "Descargando las actualizaciones."
+
+#: renpy/common/00updater.rpy:1572
+msgid "Unpacking the updates."
+msgstr "Desempaquetando las actualizaciones."
+
+#: renpy/common/00updater.rpy:1574
+msgid "Finishing up."
+msgstr "Terminando."
+
+#: renpy/common/00updater.rpy:1576
+msgid "The updates have been installed. The program will restart."
+msgstr "Las actualizaciones han sido instaladas. El programa se reiniciará."
+
+#: renpy/common/00updater.rpy:1578
+msgid "The updates have been installed."
+msgstr "Las actualizaciones han sido instaladas."
+
+#: renpy/common/00updater.rpy:1580
+msgid "The updates were cancelled."
+msgstr "Las actualizaciones fueron canceladas."
+
+#: renpy/common/00updater.rpy:1595
+msgid "Proceed"
+msgstr "Proceder"
+
+#: renpy/common/_compat/gamemenu.rpym:198
+msgid "Empty Slot."
+msgstr "Ranura vacía."
+
+#: renpy/common/_compat/gamemenu.rpym:355
+msgid "Previous"
+msgstr "Anterior"
+
+#: renpy/common/_compat/gamemenu.rpym:362
+msgid "Next"
+msgstr "próximo"
+
+#: renpy/common/_compat/preferences.rpym:428
+msgid "Joystick Mapping"
+msgstr "Mapeo de joystick"
+
+#: renpy/common/_developer/developer.rpym:38
+msgid "Developer Menu"
+msgstr "Menú de desarrollador"
+
+#: renpy/common/_developer/developer.rpym:43
+msgid "Interactive Director (D)"
+msgstr "Director Interactivo (D)"
+
+#: renpy/common/_developer/developer.rpym:45
+msgid "Reload Game (Shift+R)"
+msgstr "Recargar juego (Shift+R)"
+
+#: renpy/common/_developer/developer.rpym:47
+msgid "Console (Shift+O)"
+msgstr "Consola (Mayús+O)"
+
+#: renpy/common/_developer/developer.rpym:49
+msgid "Variable Viewer"
+msgstr "Visor de variables"
+
+#: renpy/common/_developer/developer.rpym:51
+msgid "Image Location Picker"
+msgstr "Selector de ubicación de imagen"
+
+#: renpy/common/_developer/developer.rpym:53
+msgid "Filename List"
+msgstr "Lista de nombres de archivo"
+
+#: renpy/common/_developer/developer.rpym:57
+msgid "Show Image Load Log (F4)"
+msgstr "Mostrar registro de carga de imágenes (F4)"
+
+#: renpy/common/_developer/developer.rpym:60
+msgid "Hide Image Load Log (F4)"
+msgstr "Ocultar registro de carga de imagen (F4)"
+
+#: renpy/common/_developer/developer.rpym:63
+msgid "Image Attributes"
+msgstr "Atributos de imagen"
+
+#: renpy/common/_developer/developer.rpym:90
+msgid "[name] [attributes] (hidden)"
+msgstr "[name] [attributes] (hidden)"
+
+#: renpy/common/_developer/developer.rpym:94
+msgid "[name] [attributes]"
+msgstr "[name] [attributes]"
+
+#: renpy/common/_developer/developer.rpym:143
+msgid "Nothing to inspect."
+msgstr "Nada que inspeccionar."
+
+#: renpy/common/_developer/developer.rpym:154
+msgid "Hide deleted"
+msgstr "Ocultar eliminado"
+
+#: renpy/common/_developer/developer.rpym:154
+msgid "Show deleted"
+msgstr "Mostrar eliminado"
+
+#: renpy/common/_developer/developer.rpym:278
+msgid "Return to the developer menu"
+msgstr "Volver al menú de desarrollador"
+
+#: renpy/common/_developer/developer.rpym:443
+msgid "Rectangle: %r"
+msgstr "Rectángulo: %r"
+
+#: renpy/common/_developer/developer.rpym:448
+msgid "Mouse position: %r"
+msgstr "Posición del ratón: %r"
+
+#: renpy/common/_developer/developer.rpym:453
+msgid "Right-click or escape to quit."
+msgstr "Haga clic derecho o escape para salir."
+
+#: renpy/common/_developer/developer.rpym:485
+msgid "Rectangle copied to clipboard."
+msgstr "Rectángulo copiado al portapapeles."
+
+#: renpy/common/_developer/developer.rpym:488
+msgid "Position copied to clipboard."
+msgstr "Posición copiada al portapapeles."
+
+#: renpy/common/_developer/developer.rpym:506
+msgid "Type to filter: "
+msgstr "Escriba para filtrar: "
+
+#: renpy/common/_developer/developer.rpym:631
+msgid "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
+msgstr "Texturas: [tex_count] ([tex_size_mb:.1f] MB)"
+
+#: renpy/common/_developer/developer.rpym:635
+msgid "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+msgstr "Caché de imagen: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+
+#: renpy/common/_developer/developer.rpym:645
+msgid "✔ "
+msgstr "✔ "
+
+#: renpy/common/_developer/developer.rpym:648
+msgid "✘ "
+msgstr "✘ "
+
+#: renpy/common/_developer/developer.rpym:653
+msgid "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+msgstr "\n"
+"{color=#cfc}✔ imagen prevista (buena){/color} {color=#fcc}✘ imagen imprevista (mala){/color} {color=#fff}Arrastra para mover.{/color}"
+
+#: renpy/common/_developer/inspector.rpym:38
+msgid "Displayable Inspector"
+msgstr "Inspector visualizable"
+
+#: renpy/common/_developer/inspector.rpym:61
+msgid "Size"
+msgstr "Tamaño"
+
+#: renpy/common/_developer/inspector.rpym:65
+msgid "Style"
+msgstr "Estilo"
+
+#: renpy/common/_developer/inspector.rpym:71
+msgid "Location"
+msgstr "Localización"
+
+#: renpy/common/_developer/inspector.rpym:122
+msgid "Inspecting Styles of [displayable_name!q]"
+msgstr "Inspección de estilos de [displayable_name!q]"
+
+#: renpy/common/_developer/inspector.rpym:139
+msgid "displayable:"
+msgstr "visualizable:"
+
+#: renpy/common/_developer/inspector.rpym:145
+msgid "        (no properties affect the displayable)"
+msgstr "        (ninguna propiedad afecta lo visualizable)"
+
+#: renpy/common/_developer/inspector.rpym:147
+msgid "        (default properties omitted)"
+msgstr "        (propiedades predeterminadas omitidas)"
+
+#: renpy/common/_developer/inspector.rpym:185
+msgid "<repr() failed>"
+msgstr "<repr() falló>"
+
+#: renpy/common/_errorhandling.rpym:553
+msgid "Open"
+msgstr "Abierto"
+
+#: renpy/common/_errorhandling.rpym:555
+msgid "Opens the traceback.txt file in a text editor."
+msgstr "Abre el archivo traceback.txt en un editor de texto."
+
+#: renpy/common/_errorhandling.rpym:557
+msgid "Copy BBCode"
+msgstr "Copiar código BBC"
+
+#: renpy/common/_errorhandling.rpym:559
+msgid "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+msgstr "Copia el archivo traceback.txt al portapapeles como BBcode para foros como https://lemmasoft.renai.us/."
+
+#: renpy/common/_errorhandling.rpym:561
+msgid "Copy Markdown"
+msgstr "Copiar descuento"
+
+#: renpy/common/_errorhandling.rpym:563
+msgid "Copies the traceback.txt file to the clipboard as Markdown for Discord."
+msgstr "Copia el archivo traceback.txt al portapapeles como Markdown para Discord."
+
+#: renpy/common/_errorhandling.rpym:592
+msgid "An exception has occurred."
+msgstr "Ha ocurrido una excepción."
+
+#: renpy/common/_errorhandling.rpym:615
+msgid "Rollback"
+msgstr "Retroceder"
+
+#: renpy/common/_errorhandling.rpym:617
+msgid "Attempts a roll back to a prior time, allowing you to save or choose a different choice."
+msgstr "Intenta retroceder a un momento anterior, lo que le permite guardar o elegir una opción diferente."
+
+#: renpy/common/_errorhandling.rpym:620
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: renpy/common/_errorhandling.rpym:624
+msgid "Ignores the exception, allowing you to continue."
+msgstr "Ignora la excepción, permitiéndole continuar."
+
+#: renpy/common/_errorhandling.rpym:626
+msgid "Ignores the exception, allowing you to continue. This often leads to additional errors."
+msgstr "Ignora la excepción, permitiéndole continuar. Esto a menudo conduce a errores adicionales."
+
+#: renpy/common/_errorhandling.rpym:630
+msgid "Reload"
+msgstr "Recargar"
+
+#: renpy/common/_errorhandling.rpym:632
+msgid "Reloads the game from disk, saving and restoring game state if possible."
+msgstr "Recarga el juego desde el disco, guardando y restaurando el estado del juego si es posible."
+
+#: renpy/common/_errorhandling.rpym:635
+msgid "Console"
+msgstr "Consola"
+
+#: renpy/common/_errorhandling.rpym:637
+msgid "Opens a console to allow debugging the problem."
+msgstr "Abre una consola para permitir la depuración del problema."
+
+#: renpy/common/_errorhandling.rpym:650
+msgid "Quits the game."
+msgstr "Sale del juego."
+
+#: renpy/common/_errorhandling.rpym:671
+msgid "Parsing the script failed."
+msgstr "Error al analizar el script."
+
+#: renpy/common/_layout/classic_load_save.rpym:170
+msgid "a"
+msgstr "un"
+
+#: renpy/common/_layout/classic_load_save.rpym:179
+msgid "q"
+msgstr "q"
+
