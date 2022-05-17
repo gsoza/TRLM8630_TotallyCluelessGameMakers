@@ -66,7 +66,7 @@ init python:
 
     def display_items_overlay():
         if showitems:
-            inventory_show = "Inventory: "
+            inventory_show = _("Inventory: ")
             for i in range(0, len(items)):
                 item_name = items[i].title()
                 if i > 0:
