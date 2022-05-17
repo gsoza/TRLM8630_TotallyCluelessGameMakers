@@ -109,9 +109,9 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    $ name = renpy.input("What is your name?")
+    $ name = renpy.input(_("What is your name?"))
     $ name = name.strip() or "Gary"
-    $ pet = renpy.input("What is the last thing you ate?")
+    $ pet = renpy.input(_("What is the last thing you ate?"))
     $ pet = pet.strip() or "Vitamin D"
 
     # show screen choose
