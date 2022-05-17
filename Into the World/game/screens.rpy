@@ -752,6 +752,18 @@ screen preferences():
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
+                vbox:
+                    style_prefix "radio"
+                    label _("Language")
+
+                    # Real languages should go alphabetical order by English name.
+                    textbutton "English" text_font "DejaVuSans.ttf" action Language(None)
+                    # textbutton "Français" text_font "DejaVuSans.ttf" action Language("french")
+                    # textbutton "Русский" text_font "DejaVuSans.ttf" action Language("russian")
+                    textbutton "Español" text_font "DejaVuSans.ttf" action Language("spanish")
+                    # textbutton "한국어" text_font "../../launcher/game/fonts/SourceHanSansLite.ttf" action Language("korean")
+                    # textbutton "日本語" text_font "../../launcher/game/fonts/SourceHanSansLite.ttf" action Language("japanese")
+                    textbutton "简体中文" text_font "../../launcher/game/fonts/SourceHanSansLite.ttf" action Language("schinese")
 
             null height (4 * gui.pref_spacing)
 

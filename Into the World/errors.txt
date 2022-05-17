@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 23: invalid syntax
-    "[protag]_happy", xzoom=-1)
-                            ^
+File "game/screens.rpy", line 766: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+                        textbutton "简体中文" text_font "../../launcher/game/fonts/SourceHanSansLite.ttf" action Language("schinese)
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon May 16 13:06:56 2022
+Tue May 17 12:24:26 2022

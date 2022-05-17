@@ -9,7 +9,7 @@ define h = Character("Hobo")
 define p = Character("[pet]")
 define g = Character("Sad Girl")
 define dog = Character("Dog")
-define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5)
+define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5, what_size = 35)
 define v = Character("Vending Machine")
 define a = Character("Locker Attendant")
 define items = []
@@ -102,21 +102,7 @@ label start:
     #     $protagonist = "Protagonist1.png"
     # label chose_female:
     #     $protagonist = "Protagonist2.png"
-    show Protag1 at left
-    show Protag2 at right
-    menu:
-        # "{image=Protagonist1.png}":
-        "<- Character 1":
-            $ protag = "Protagonist1"
-            hide Protag1
-            hide Protag2
-            jump story
-        # "{image=Protagonist2.png}":
-        "Character 2 ->":
-            $ protag = "Protagonist2"
-            hide Protag1
-            hide Protag2
-            jump story
+
 
 label story:
 
@@ -136,11 +122,33 @@ label story:
     scene bedroom
     with fade
 
-    n "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:"
-    n "*The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station. From there you will take said briefcase to a specified location.*"
+    n """[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads:
+
+    \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:\"
+
+    *The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station.
+
+    From there you will take said briefcase to a specified location.*"""
+
     stop music fadeout 3.0
     $ showitems = True
 
+label characterChoice:
+    show Protag1 at left
+    show Protag2 at right
+    menu:
+        # "{image=Protagonist1.png}":
+        "<- Character 1":
+            $ protag = "Protagonist1"
+            hide Protag1
+            hide Protag2
+            jump middle
+        # "{image=Protagonist2.png}":
+        "Character 2 ->":
+            $ protag = "Protagonist2"
+            hide Protag1
+            hide Protag2
+            jump middle
 label middle:
     stop music fadeout 2.0
     stop sound
@@ -367,6 +375,7 @@ label surprise:
     $ items.remove("briefcase")
     scene bg party
     show protagonist at right
+    show dog at slightleft
     show pet:
         xalign 0.75
         yalign 0.30
@@ -374,6 +383,7 @@ label surprise:
     show hobo:
         xalign 0.35
         yalign 1.0
+    z "What is all this?"
     h "We arranged this suprise party challenge for you."
     h "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
     z "It was definitely a strange adventure, but was a lot of fun. I'm glad [pet] is okay!"

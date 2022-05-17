@@ -1,0 +1,1795 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: game/options.rpy:15
+msgid "Zombie or Not"
+msgstr ""
+
+#: game/screens.rpy:261
+msgid "Back"
+msgstr ""
+
+#: game/screens.rpy:262
+msgid "History"
+msgstr ""
+
+#: game/screens.rpy:263
+msgid "Skip"
+msgstr ""
+
+#: game/screens.rpy:264
+msgid "Auto"
+msgstr ""
+
+#: game/screens.rpy:265
+msgid "Save"
+msgstr ""
+
+#: game/screens.rpy:266
+msgid "Q.Save"
+msgstr ""
+
+#: game/screens.rpy:267
+msgid "Q.Load"
+msgstr ""
+
+#: game/screens.rpy:268
+msgid "Prefs"
+msgstr ""
+
+#: game/screens.rpy:309
+msgid "Start"
+msgstr ""
+
+#: game/screens.rpy:317
+msgid "Load"
+msgstr ""
+
+#: game/screens.rpy:319
+msgid "Preferences"
+msgstr ""
+
+#: game/screens.rpy:323
+msgid "End Replay"
+msgstr ""
+
+#: game/screens.rpy:327
+msgid "Main Menu"
+msgstr ""
+
+#: game/screens.rpy:329
+msgid "About"
+msgstr ""
+
+#: game/screens.rpy:334
+msgid "Help"
+msgstr ""
+
+#: game/screens.rpy:340
+msgid "Quit"
+msgstr ""
+
+#: game/screens.rpy:481
+msgid "Return"
+msgstr ""
+
+#: game/screens.rpy:565
+msgid "Version [config.version!t]\n"
+msgstr ""
+
+#: game/screens.rpy:571
+msgid "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+msgstr ""
+
+#: game/screens.rpy:607
+msgid "Page {}"
+msgstr ""
+
+#: game/screens.rpy:607
+msgid "Automatic saves"
+msgstr ""
+
+#: game/screens.rpy:607
+msgid "Quick saves"
+msgstr ""
+
+#: game/screens.rpy:649
+msgid "{#file_time}%A, %B %d %Y, %H:%M"
+msgstr ""
+
+#: game/screens.rpy:649
+msgid "empty slot"
+msgstr ""
+
+#: game/screens.rpy:666
+msgid "<"
+msgstr ""
+
+#: game/screens.rpy:669
+msgid "{#auto_page}A"
+msgstr ""
+
+#: game/screens.rpy:672
+msgid "{#quick_page}Q"
+msgstr ""
+
+#: game/screens.rpy:678
+msgid ">"
+msgstr ""
+
+#: game/screens.rpy:735
+msgid "Display"
+msgstr ""
+
+#: game/screens.rpy:736
+msgid "Window"
+msgstr ""
+
+#: game/screens.rpy:737
+msgid "Fullscreen"
+msgstr ""
+
+#: game/screens.rpy:741
+msgid "Rollback Side"
+msgstr ""
+
+#: game/screens.rpy:742
+msgid "Disable"
+msgstr ""
+
+#: game/screens.rpy:743
+msgid "Left"
+msgstr ""
+
+#: game/screens.rpy:744
+msgid "Right"
+msgstr ""
+
+#: game/screens.rpy:749
+msgid "Unseen Text"
+msgstr ""
+
+#: game/screens.rpy:750
+msgid "After Choices"
+msgstr ""
+
+#: game/screens.rpy:751
+msgid "Transitions"
+msgstr ""
+
+#: game/screens.rpy:764
+msgid "Text Speed"
+msgstr ""
+
+#: game/screens.rpy:768
+msgid "Auto-Forward Time"
+msgstr ""
+
+#: game/screens.rpy:775
+msgid "Music Volume"
+msgstr ""
+
+#: game/screens.rpy:782
+msgid "Sound Volume"
+msgstr ""
+
+#: game/screens.rpy:788
+msgid "Test"
+msgstr ""
+
+#: game/screens.rpy:792
+msgid "Voice Volume"
+msgstr ""
+
+#: game/screens.rpy:803
+msgid "Mute All"
+msgstr ""
+
+#: game/screens.rpy:922
+msgid "The dialogue history is empty."
+msgstr ""
+
+#: game/screens.rpy:992
+msgid "Keyboard"
+msgstr ""
+
+#: game/screens.rpy:993
+msgid "Mouse"
+msgstr ""
+
+#: game/screens.rpy:996
+msgid "Gamepad"
+msgstr ""
+
+#: game/screens.rpy:1009
+msgid "Enter"
+msgstr ""
+
+#: game/screens.rpy:1010
+msgid "Advances dialogue and activates the interface."
+msgstr ""
+
+#: game/screens.rpy:1013
+msgid "Space"
+msgstr ""
+
+#: game/screens.rpy:1014
+msgid "Advances dialogue without selecting choices."
+msgstr ""
+
+#: game/screens.rpy:1017
+msgid "Arrow Keys"
+msgstr ""
+
+#: game/screens.rpy:1018
+msgid "Navigate the interface."
+msgstr ""
+
+#: game/screens.rpy:1021
+msgid "Escape"
+msgstr ""
+
+#: game/screens.rpy:1022
+msgid "Accesses the game menu."
+msgstr ""
+
+#: game/screens.rpy:1025
+msgid "Ctrl"
+msgstr ""
+
+#: game/screens.rpy:1026
+msgid "Skips dialogue while held down."
+msgstr ""
+
+#: game/screens.rpy:1029
+msgid "Tab"
+msgstr ""
+
+#: game/screens.rpy:1030
+msgid "Toggles dialogue skipping."
+msgstr ""
+
+#: game/screens.rpy:1033
+msgid "Page Up"
+msgstr ""
+
+#: game/screens.rpy:1034
+msgid "Rolls back to earlier dialogue."
+msgstr ""
+
+#: game/screens.rpy:1037
+msgid "Page Down"
+msgstr ""
+
+#: game/screens.rpy:1038
+msgid "Rolls forward to later dialogue."
+msgstr ""
+
+#: game/screens.rpy:1042
+msgid "Hides the user interface."
+msgstr ""
+
+#: game/screens.rpy:1046
+msgid "Takes a screenshot."
+msgstr ""
+
+#: game/screens.rpy:1050
+msgid "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+msgstr ""
+
+#: game/screens.rpy:1054
+msgid "Opens the accessibility menu."
+msgstr ""
+
+#: game/screens.rpy:1060
+msgid "Left Click"
+msgstr ""
+
+#: game/screens.rpy:1064
+msgid "Middle Click"
+msgstr ""
+
+#: game/screens.rpy:1068
+msgid "Right Click"
+msgstr ""
+
+#: game/screens.rpy:1072
+msgid "Mouse Wheel Up\nClick Rollback Side"
+msgstr ""
+
+#: game/screens.rpy:1076
+msgid "Mouse Wheel Down"
+msgstr ""
+
+#: game/screens.rpy:1083
+msgid "Right Trigger\nA/Bottom Button"
+msgstr ""
+
+#: game/screens.rpy:1087
+msgid "Left Trigger\nLeft Shoulder"
+msgstr ""
+
+#: game/screens.rpy:1091
+msgid "Right Shoulder"
+msgstr ""
+
+#: game/screens.rpy:1096
+msgid "D-Pad, Sticks"
+msgstr ""
+
+#: game/screens.rpy:1100
+msgid "Start, Guide"
+msgstr ""
+
+#: game/screens.rpy:1104
+msgid "Y/Top Button"
+msgstr ""
+
+#: game/screens.rpy:1107
+msgid "Calibrate"
+msgstr ""
+
+#: game/screens.rpy:1172
+msgid "Yes"
+msgstr ""
+
+#: game/screens.rpy:1173
+msgid "No"
+msgstr ""
+
+#: game/screens.rpy:1219
+msgid "Skipping"
+msgstr ""
+
+#: game/screens.rpy:1442
+msgid "Menu"
+msgstr ""
+
+#: game/script.rpy:107
+msgid "<- Character 1"
+msgstr ""
+
+#: game/script.rpy:107
+msgid "Character 2 ->"
+msgstr ""
+
+#: game/script.rpy:126
+msgid "Two years have passed, since Covid-57 struck the nation."
+msgstr ""
+
+#: game/script.rpy:127
+msgid "Families were forced to stay indoors to prevent the virus from spreading."
+msgstr ""
+
+#: game/script.rpy:128
+msgid "Finally the lockdown has been lifted. Some were overjoyed at the opportunity to go out into the world again, socialize, see their friends, go to parties, coffee shops, shopping malls."
+msgstr ""
+
+#: game/script.rpy:129
+msgid "But others felt the effects of the long-term isolation."
+msgstr ""
+
+#: game/script.rpy:130
+msgid "The world was no longer a friendly place, and the very thought of seeing people..."
+msgstr ""
+
+#: game/script.rpy:131
+msgctxt "story_bb2cf764"
+msgid "..."
+msgstr ""
+
+#: game/script.rpy:132
+msgid "6 months have passed since the lockdown was lifted."
+msgstr ""
+
+#: game/script.rpy:133
+msgid "However, you, [name] did not dare step outside your front door, but instead remained within the walls of your apartment, only with your pet Iguana, [pet] as company."
+msgstr ""
+
+#: game/script.rpy:134
+msgid "Little did [name] know, all of this was about to change..."
+msgstr ""
+
+#: game/script.rpy:139
+msgid "[name] wakes up as usual, turns on the laptop and finds a message from a strange email address...the message reads: \"We have [pet], do not try and find us...if you ever want to see [pet] again, follow these instructions:"
+msgstr ""
+
+#: game/script.rpy:140
+msgid "*The note instructs you to complete a series of tasks that will lead you to a briefcase in locker #420 located at the train station. From there you will take said briefcase to a specified location.*"
+msgstr ""
+
+#: game/script.rpy:149
+msgid "Check the Park"
+msgstr ""
+
+#: game/script.rpy:149
+msgid "Head down the street"
+msgstr ""
+
+#: game/script.rpy:149
+msgid "Go to the locker"
+msgstr ""
+
+#: game/script.rpy:149
+msgid "Go to the location"
+msgstr ""
+
+#: game/script.rpy:152
+msgctxt "decision_74b147a3"
+msgid "I don't think I need to go there again"
+msgstr ""
+
+#: game/script.rpy:158
+msgctxt "decision_74b147a3_1"
+msgid "I don't think I need to go there again"
+msgstr ""
+
+#: game/script.rpy:164
+msgctxt "decision_74b147a3_2"
+msgid "I don't think I need to go there again"
+msgstr ""
+
+#: game/script.rpy:172
+msgid "Better not show up empty-handed"
+msgstr ""
+
+#: game/script.rpy:188
+msgid "Um...hi"
+msgstr ""
+
+#: game/script.rpy:189
+msgid "Can you help me find my doggie? I LOST MY DOGGIE"
+msgstr ""
+
+#: game/script.rpy:191
+msgid "Heck no kiddo, dogs are GROSS"
+msgstr ""
+
+#: game/script.rpy:191
+msgid "Uh, sure...I can look around"
+msgstr ""
+
+#: game/script.rpy:191
+msgid "I wish I could"
+msgstr ""
+
+#: game/script.rpy:201
+msgid "You big meanie"
+msgstr ""
+
+#: game/script.rpy:202
+msgid "That was a pretty jerk move, come back when you learn not to bully little girls."
+msgstr ""
+
+#: game/script.rpy:207
+msgid "You're so nice!"
+msgstr ""
+
+#: game/script.rpy:211
+msgid "*cry* please come back if you can!"
+msgstr ""
+
+#: game/script.rpy:217
+msgid "Where should I look?"
+msgstr ""
+
+#: game/script.rpy:218
+msgid "Behind the tree"
+msgstr ""
+
+#: game/script.rpy:218
+msgid "Behind the bush"
+msgstr ""
+
+#: game/script.rpy:218
+msgid "Under a rock"
+msgstr ""
+
+#: game/script.rpy:222
+msgid "Hey I found it! Come on boy!"
+msgstr ""
+
+#: game/script.rpy:224
+msgid "Hmm, he doesn't want to come with me"
+msgstr ""
+
+#: game/script.rpy:226
+msgid "Give toy"
+msgstr ""
+
+#: game/script.rpy:230
+msgid "Let's go find your mom!"
+msgstr ""
+
+#: game/script.rpy:233
+msgid "Maybe I should find something to give him"
+msgstr ""
+
+#: game/script.rpy:237
+msgid "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
+msgstr ""
+
+#: game/script.rpy:240
+msgid "I found a beetle...wait, I see a chew toy as well!"
+msgstr ""
+
+#: game/script.rpy:241
+msgid "Take toy"
+msgstr ""
+
+#: game/script.rpy:241
+msgid "Leave toy"
+msgstr ""
+
+#: game/script.rpy:244
+msgid "Hmm, I bet he'll like this!"
+msgstr ""
+
+#: game/script.rpy:255
+msgid "You found him! Thank you so much! Here, take this."
+msgstr ""
+
+#: game/script.rpy:256
+msgid "You got {b}loose change: $0.69{/b}"
+msgstr ""
+
+#: game/script.rpy:264
+msgid "Man, it's so hot today, I could really use a drink right now..."
+msgstr ""
+
+#: game/script.rpy:265
+msgid "Oh look, a vending machine, perfect!"
+msgstr ""
+
+#: game/script.rpy:267
+msgid "Spare some change?"
+msgstr ""
+
+#: game/script.rpy:269
+msgid "What?? A talking vending machine! Stay away from me!"
+msgstr ""
+
+#: game/script.rpy:269
+msgid "Sure, but this is all I have"
+msgstr ""
+
+#: game/script.rpy:271
+msgid "Wow, that was rude."
+msgstr ""
+
+#: game/script.rpy:272
+msgid "Vending machines are people too...sorta...anyway be nice."
+msgstr ""
+
+#: game/script.rpy:276
+msgid "what is this a trick? It's just your hand. Got any {i}actual{/i} change??"
+msgstr ""
+
+#: game/script.rpy:280
+msgid "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
+msgstr ""
+
+#: game/script.rpy:281
+msgid "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
+msgstr ""
+
+#: game/script.rpy:283
+msgid "But...what about my drink?"
+msgstr ""
+
+#: game/script.rpy:284
+msgctxt "vending_65cabcbf"
+msgid "..."
+msgstr ""
+
+#: game/script.rpy:285
+msgid "oh well"
+msgstr ""
+
+#: game/script.rpy:289
+msgid "Well I'll be right here if you {i}change{/i} your mind."
+msgstr ""
+
+#: game/script.rpy:296
+msgid "Okay, I made it to the locker. Let's get this thing open"
+msgstr ""
+
+#: game/script.rpy:297
+msgid "Open Locker"
+msgstr ""
+
+#: game/script.rpy:297
+msgid "Leave"
+msgstr ""
+
+#: game/script.rpy:300
+msgid "Uh, I don't have anything to open this with."
+msgstr ""
+
+#: game/script.rpy:303
+msgid "You insert the {b}key{/b}"
+msgstr ""
+
+#: game/script.rpy:309
+msgid "Hey kid, what's the big idea? Watch where you're sticking that thing!"
+msgstr ""
+
+#: game/script.rpy:310
+msgid "Oh great...another talking object"
+msgstr ""
+
+#: game/script.rpy:311
+msgid "F*ck this sh*t, I'm out"
+msgstr ""
+
+#: game/script.rpy:311
+msgid "I don't have time for this."
+msgstr ""
+
+#: game/script.rpy:311
+msgid "Look, I'm just trying to get the briefcase inside so I can rescue [pet]"
+msgstr ""
+
+#: game/script.rpy:314
+msgid "yeah you gangsta, now come back when you wanna play nice"
+msgstr ""
+
+#: game/script.rpy:317
+msgid "meh, another day then."
+msgstr ""
+
+#: game/script.rpy:320
+msgid "Well, I don't know what a [pet] is, but that key ain't gonna work. Kids these days, gotta tell 'em how to do everything I tell ya."
+msgstr ""
+
+#: game/script.rpy:321
+msgid "Jerk..."
+msgstr ""
+
+#: game/script.rpy:321
+msgid "Ok, what should I do then?"
+msgstr ""
+
+#: game/script.rpy:323
+msgid "Again with the social faux-pas"
+msgstr ""
+
+#: game/script.rpy:328
+msgid "You look like a nice kid, I'll help ya out."
+msgstr ""
+
+#: game/script.rpy:329
+msgid "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
+msgstr ""
+
+#: game/script.rpy:330
+msgid "Ok, here goes."
+msgstr ""
+
+#: game/script.rpy:334
+msgid "Hiya! How can I help you?"
+msgstr ""
+
+#: game/script.rpy:335
+msgid "*babbles incoherently*"
+msgstr ""
+
+#: game/script.rpy:335
+msgid "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?"
+msgstr ""
+
+#: game/script.rpy:335
+msgid "GIMME THE LOCKER COMBINATION!"
+msgstr ""
+
+#: game/script.rpy:337
+msgid "The attendant looks at you, confused, then turns away."
+msgstr ""
+
+#: game/script.rpy:338
+msgid "Maybe try using people words"
+msgstr ""
+
+#: game/script.rpy:341
+msgid "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
+msgstr ""
+
+#: game/script.rpy:343
+msgid "You retrieved the {b}briefcase{/b}"
+msgstr ""
+
+#: game/script.rpy:348
+msgid "That was intense"
+msgstr ""
+
+#: game/script.rpy:353
+msgid "Ok, here we are..."
+msgstr ""
+
+#: game/script.rpy:354
+msgid "Congratulations, [name]! You made it to the final destination. Hope [pet] is still breathing..."
+msgstr ""
+
+#: game/script.rpy:355
+msgid "Who said that??"
+msgstr ""
+
+#: game/script.rpy:356
+msgid "I should probably open this door..."
+msgstr ""
+
+#: game/script.rpy:357
+msgid "Open door"
+msgstr ""
+
+#: game/script.rpy:357
+msgid "Run away"
+msgstr ""
+
+#: game/script.rpy:361
+msgid "You've come so far, just one more step."
+msgstr ""
+
+#: game/script.rpy:365
+msgid "SURPRISE!!!"
+msgstr ""
+
+#: game/script.rpy:366
+msgid "[pet]??"
+msgstr ""
+
+#: game/script.rpy:377
+msgid "We arranged this suprise party challenge for you."
+msgstr ""
+
+#: game/script.rpy:378
+msgid "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
+msgstr ""
+
+#: game/script.rpy:379
+msgid "It was definitely a strange adventure, but was a lot of fun. I'm glad [pet] is okay!"
+msgstr ""
+
+#: game/script.rpy:380
+msgid "*happy noises*"
+msgstr ""
+
+#: game/script.rpy:385
+msgid "yay you got the thing and everyone dies, how bout some coffee?"
+msgstr ""
+
+#: game/script.rpy:390
+msgid "Hi, welcome to Zombucks, how can I help you?"
+msgstr ""
+
+#: game/script.rpy:391
+msgid "Didn't I just see you at...uh...nevermind"
+msgstr ""
+
+#: game/script.rpy:392
+msgid "Need…coffee…*groan*"
+msgstr ""
+
+#: game/script.rpy:392
+msgid "One bloody chai, please"
+msgstr ""
+
+#: game/script.rpy:392
+msgid "I’ll have a vanilla oat decaf double shot mocha frappuccino with a twist"
+msgstr ""
+
+#: game/script.rpy:394
+msgid "Hmm, let’s get you caffeinated."
+msgstr ""
+
+#: game/script.rpy:395
+msgid "Caffeine good"
+msgstr ""
+
+#: game/script.rpy:398
+msgid "Come again? Do you mean dirty chai?"
+msgstr ""
+
+#: game/script.rpy:399
+msgid "uh...I guess"
+msgstr ""
+
+#: game/script.rpy:402
+msgid "I see this isn’t your first time! One basic-white-girl coming right up!"
+msgstr ""
+
+#: game/script.rpy:403
+msgid "Thanks fellow human!"
+msgstr ""
+
+#: game/script.rpy:409
+msgid "*barista goes to make drink*"
+msgstr ""
+
+#: game/script.rpy:411
+msgid "I swear that was the same person from..."
+msgstr ""
+
+#: game/script.rpy:413
+msgid "Order up!"
+msgstr ""
+
+#: game/script.rpy:414
+msgid "*almost falls over*"
+msgstr ""
+
+#: game/script.rpy:418
+msgid "You have failed as a human. YOU LOSE"
+msgstr ""
+
+#: game/script.rpy:421
+msgid "You have regained your humanity. YOU WIN"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:28
+msgid "Self-voicing disabled."
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:29
+msgid "Clipboard voicing enabled. "
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:30
+msgid "Self-voicing enabled. "
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:32
+msgid "bar"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:33
+msgid "selected"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:34
+msgid "viewport"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:35
+msgid "horizontal scroll"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:36
+msgid "vertical scroll"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:37
+msgid "activate"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:38
+msgid "deactivate"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:39
+msgid "increase"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:40
+msgid "decrease"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:138
+msgid "Font Override"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:142
+msgid "Default"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:146
+msgid "DejaVu Sans"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:150
+msgid "Opendyslexic"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:156
+msgid "Text Size Scaling"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:162
+msgid "Reset"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:168
+msgid "Line Spacing Scaling"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:180
+msgid "High Contrast Text"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:182
+msgid "Enable"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:193
+msgid "Self-Voicing"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:197
+msgid "Off"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:201
+msgid "Text-to-speech"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:205
+msgid "Clipboard"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:209
+msgid "Debug"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:215
+msgid "Self-Voicing Volume Drop"
+msgstr ""
+
+#: renpy/common/00accessibility.rpy:224
+msgid "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Monday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Tuesday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Wednesday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Thursday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Friday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Saturday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:26
+msgid "{#weekday}Sunday"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Mon"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Tue"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Wed"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Thu"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Fri"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Sat"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:37
+msgid "{#weekday_short}Sun"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}January"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}February"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}March"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}April"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}May"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}June"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}July"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}August"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}September"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}October"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}November"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:47
+msgid "{#month}December"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Jan"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Feb"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Mar"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Apr"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}May"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Jun"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Jul"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Aug"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Sep"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Oct"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Nov"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:63
+msgid "{#month_short}Dec"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:250
+msgid "%b %d, %H:%M"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:363
+msgid "Save slot %s: [text]"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:444
+msgid "Load slot %s: [text]"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:497
+msgid "Delete slot [text]"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:576
+msgid "File page auto"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:578
+msgid "File page quick"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:580
+msgid "File page [text]"
+msgstr ""
+
+#: renpy/common/00action_file.rpy:779
+msgid "Next file page."
+msgstr ""
+
+#: renpy/common/00action_file.rpy:851
+msgid "Previous file page."
+msgstr ""
+
+#: renpy/common/00action_file.rpy:912
+msgid "Quick save complete."
+msgstr ""
+
+#: renpy/common/00action_file.rpy:930
+msgid "Quick save."
+msgstr ""
+
+#: renpy/common/00action_file.rpy:949
+msgid "Quick load."
+msgstr ""
+
+#: renpy/common/00action_other.rpy:375
+msgid "Language [text]"
+msgstr ""
+
+#: renpy/common/00director.rpy:708
+msgid "The interactive director is not enabled here."
+msgstr ""
+
+#: renpy/common/00director.rpy:1481
+msgid "⬆"
+msgstr ""
+
+#: renpy/common/00director.rpy:1487
+msgid "⬇"
+msgstr ""
+
+#: renpy/common/00director.rpy:1551
+msgid "Done"
+msgstr ""
+
+#: renpy/common/00director.rpy:1561
+msgid "(statement)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1562
+msgid "(tag)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1563
+msgid "(attributes)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1564
+msgid "(transform)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1589
+msgid "(transition)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1601
+msgid "(channel)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1602
+msgid "(filename)"
+msgstr ""
+
+#: renpy/common/00director.rpy:1631
+msgid "Change"
+msgstr ""
+
+#: renpy/common/00director.rpy:1633
+msgid "Add"
+msgstr ""
+
+#: renpy/common/00director.rpy:1636
+msgid "Cancel"
+msgstr ""
+
+#: renpy/common/00director.rpy:1639
+msgid "Remove"
+msgstr ""
+
+#: renpy/common/00director.rpy:1674
+msgid "Statement:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1695
+msgid "Tag:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1711
+msgid "Attributes:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1729
+msgid "Transforms:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1748
+msgid "Behind:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1767
+msgid "Transition:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1785
+msgid "Channel:"
+msgstr ""
+
+#: renpy/common/00director.rpy:1803
+msgid "Audio Filename:"
+msgstr ""
+
+#: renpy/common/00gallery.rpy:590
+msgid "Image [index] of [count] locked."
+msgstr ""
+
+#: renpy/common/00gallery.rpy:610
+msgid "prev"
+msgstr ""
+
+#: renpy/common/00gallery.rpy:611
+msgid "next"
+msgstr ""
+
+#: renpy/common/00gallery.rpy:612
+msgid "slideshow"
+msgstr ""
+
+#: renpy/common/00gallery.rpy:613
+msgid "return"
+msgstr ""
+
+#: renpy/common/00gamepad.rpy:32
+msgid "Select Gamepad to Calibrate"
+msgstr ""
+
+#: renpy/common/00gamepad.rpy:35
+msgid "No Gamepads Available"
+msgstr ""
+
+#: renpy/common/00gamepad.rpy:54
+msgid "Calibrating [name] ([i]/[total])"
+msgstr ""
+
+#: renpy/common/00gamepad.rpy:58
+msgid "Press or move the '[control!s]' [kind]."
+msgstr ""
+
+#: renpy/common/00gamepad.rpy:68
+msgid "Skip (A)"
+msgstr ""
+
+#: renpy/common/00gamepad.rpy:71
+msgid "Back (B)"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:89
+msgid "Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:93
+msgid "Automatically Choose"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:100
+msgid "Force GL Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:105
+msgid "Force ANGLE Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:110
+msgid "Force GLES Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:116
+msgid "Force GL2 Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:121
+msgid "Force ANGLE2 Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:126
+msgid "Force GLES2 Renderer"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:136
+msgid "Enable (No Blocklist)"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:159
+msgid "Powersave"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:173
+msgid "Framerate"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:177
+msgid "Screen"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:181
+msgid "60"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:185
+msgid "30"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:191
+msgid "Tearing"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:207
+msgid "Changes will take effect the next time this program is run."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:242
+msgid "Performance Warning"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:247
+msgid "This computer is using software rendering."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:249
+msgid "This game requires use of GL2 that can't be initialised."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:251
+msgid "This computer has a problem displaying graphics: [problem]."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:255
+msgid "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:259
+msgid "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:264
+msgid "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
+msgstr ""
+
+#: renpy/common/00gltest.rpy:269
+msgid "Continue, Show this warning again"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:273
+msgid "Continue, Don't show warning again"
+msgstr ""
+
+#: renpy/common/00gltest.rpy:281
+msgid "Change render options"
+msgstr ""
+
+#: renpy/common/00gui.rpy:423
+msgid "Are you sure?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:424
+msgid "Are you sure you want to delete this save?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:425
+msgid "Are you sure you want to overwrite your save?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:426
+msgid "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:427
+msgid "Are you sure you want to quit?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:428
+msgid "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+msgstr ""
+
+#: renpy/common/00gui.rpy:429
+msgid "Are you sure you want to end the replay?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:430
+msgid "Are you sure you want to begin skipping?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:431
+msgid "Are you sure you want to skip to the next choice?"
+msgstr ""
+
+#: renpy/common/00gui.rpy:432
+msgid "Are you sure you want to skip unseen dialogue to the next choice?"
+msgstr ""
+
+#: renpy/common/00iap.rpy:219
+msgid "Contacting App Store\nPlease Wait..."
+msgstr ""
+
+#: renpy/common/00keymap.rpy:306
+msgid "Failed to save screenshot as %s."
+msgstr ""
+
+#: renpy/common/00keymap.rpy:318
+msgid "Saved screenshot as %s."
+msgstr ""
+
+#: renpy/common/00library.rpy:195
+msgid "Skip Mode"
+msgstr ""
+
+#: renpy/common/00library.rpy:281
+msgid "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+msgstr ""
+
+#: renpy/common/00preferences.rpy:254
+msgid "display"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:266
+msgid "transitions"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:275
+msgid "skip transitions"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:277
+msgid "video sprites"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:286
+msgid "show empty window"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:295
+msgid "text speed"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:303
+msgid "joystick"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:303
+msgid "joystick..."
+msgstr ""
+
+#: renpy/common/00preferences.rpy:310
+msgid "skip"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:313
+msgid "skip unseen [text]"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:318
+msgid "skip unseen text"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:320
+msgid "begin skipping"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:324
+msgid "after choices"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:331
+msgid "skip after choices"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:333
+msgid "auto-forward time"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:347
+msgid "auto-forward"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:354
+msgid "Auto forward"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:357
+msgid "auto-forward after click"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:366
+msgid "automatic move"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:375
+msgid "wait for voice"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:384
+msgid "voice sustain"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:393
+msgid "self voicing"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:402
+msgid "self voicing volume drop"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:410
+msgid "clipboard voicing"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:419
+msgid "debug voicing"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:428
+msgid "emphasize audio"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:437
+msgid "rollback side"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:447
+msgid "gl powersave"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:453
+msgid "gl framerate"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:456
+msgid "gl tearing"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:459
+msgid "font transform"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:462
+msgid "font size"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:470
+msgid "font line spacing"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:478
+msgid "system cursor"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:487
+msgid "renderer menu"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:490
+msgid "accessibility menu"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:493
+msgid "high contrast text"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:512
+msgid "music volume"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:513
+msgid "sound volume"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:514
+msgid "voice volume"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:515
+msgid "mute music"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:516
+msgid "mute sound"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:517
+msgid "mute voice"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:518
+msgid "mute all"
+msgstr ""
+
+#: renpy/common/00preferences.rpy:599
+msgid "Clipboard voicing enabled. Press 'shift+C' to disable."
+msgstr ""
+
+#: renpy/common/00preferences.rpy:601
+msgid "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
+msgstr ""
+
+#: renpy/common/00preferences.rpy:603
+msgid "Self-voicing enabled. Press 'v' to disable."
+msgstr ""
+
+#: renpy/common/00updater.rpy:391
+msgid "The Ren'Py Updater is not supported on mobile devices."
+msgstr ""
+
+#: renpy/common/00updater.rpy:520
+msgid "An error is being simulated."
+msgstr ""
+
+#: renpy/common/00updater.rpy:704
+msgid "Either this project does not support updating, or the update status file was deleted."
+msgstr ""
+
+#: renpy/common/00updater.rpy:718
+msgid "This account does not have permission to perform an update."
+msgstr ""
+
+#: renpy/common/00updater.rpy:721
+msgid "This account does not have permission to write the update log."
+msgstr ""
+
+#: renpy/common/00updater.rpy:746
+msgid "Could not verify update signature."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1013
+msgid "The update file was not downloaded."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1031
+msgid "The update file does not have the correct digest - it may have been corrupted."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1181
+msgid "While unpacking {}, unknown type {}."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1553
+msgid "Updater"
+msgstr ""
+
+#: renpy/common/00updater.rpy:1560
+msgid "An error has occured:"
+msgstr ""
+
+#: renpy/common/00updater.rpy:1562
+msgid "Checking for updates."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1564
+msgid "This program is up to date."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1566
+msgid "[u.version] is available. Do you want to install it?"
+msgstr ""
+
+#: renpy/common/00updater.rpy:1568
+msgid "Preparing to download the updates."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1570
+msgid "Downloading the updates."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1572
+msgid "Unpacking the updates."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1574
+msgid "Finishing up."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1576
+msgid "The updates have been installed. The program will restart."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1578
+msgid "The updates have been installed."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1580
+msgid "The updates were cancelled."
+msgstr ""
+
+#: renpy/common/00updater.rpy:1595
+msgid "Proceed"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:553
+msgid "Open"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:555
+msgid "Opens the traceback.txt file in a text editor."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:557
+msgid "Copy BBCode"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:559
+msgid "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:561
+msgid "Copy Markdown"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:563
+msgid "Copies the traceback.txt file to the clipboard as Markdown for Discord."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:592
+msgid "An exception has occurred."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:615
+msgid "Rollback"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:617
+msgid "Attempts a roll back to a prior time, allowing you to save or choose a different choice."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:620
+msgid "Ignore"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:624
+msgid "Ignores the exception, allowing you to continue."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:626
+msgid "Ignores the exception, allowing you to continue. This often leads to additional errors."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:630
+msgid "Reload"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:632
+msgid "Reloads the game from disk, saving and restoring game state if possible."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:635
+msgid "Console"
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:637
+msgid "Opens a console to allow debugging the problem."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:650
+msgid "Quits the game."
+msgstr ""
+
+#: renpy/common/_errorhandling.rpym:671
+msgid "Parsing the script failed."
+msgstr ""
+
