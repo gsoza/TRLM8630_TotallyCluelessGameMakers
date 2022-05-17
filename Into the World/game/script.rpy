@@ -112,7 +112,7 @@ label start:
     $ name = renpy.input(_("What is your name?"))
     $ name = name.strip() or "Gary"
     $ pet = renpy.input(_("What is the last thing you ate?"))
-    $ pet = pet.strip() or "Vitamin D"
+    $ pet = pet.strip() or _("Vitamin D")
 
     # show screen choose
     # label chose_male:
@@ -191,7 +191,7 @@ label middle:
              else:
                 jump locker
          "Go to the location":
-             if "briefcase" in items:
+             if _("briefcase") in items:
                 jump location
              else:
                 "Better not show up empty-handed"
@@ -247,10 +247,10 @@ label searchPark:
             z @ happy "Hey I found it! Come on boy!"
             show dog mad at slightleft
             z "Hmm, he doesn't want to come with me"
-            if "toy" in items:
+            if _("toy") in items:
                 menu:
                     "Give toy":
-                        $ items.remove("toy")
+                        $ items.remove(_("toy"))
                         show dog happy
                         z @ happy "Let's go find your mom!"
                         jump foundDog
@@ -265,7 +265,7 @@ label searchPark:
             "I found a beetle...wait, I see a chew toy as well!"
             menu:
                 "Take toy":
-                    $ items.append("toy")
+                    $ items.append(_("toy"))
                     "Hmm, I bet he'll like this!"
                     jump search
                 "Leave toy":
@@ -279,7 +279,7 @@ label foundDog:
     play sound "audio/panting.mp3"
     g "You found him! Thank you so much! Here, take this."
     "You got {b}loose change: $0.69{/b}"
-    $ items.append("change")
+    $ items.append(_("change"))
     $ park_level = True
     jump middle
 
@@ -297,14 +297,14 @@ label street:
             n "Vending machines are people too...sorta...anyway be nice."
             jump middle
         "Sure, but this is all I have":
-            if "change" not in items:
+            if _("change") not in items:
                 "what is this a trick? It's just your hand. Got any {i}actual{/i} change??"
                 jump vending
             else:
-                $ items.remove("change")
+                $ items.remove(_("change"))
                 v "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
                 "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
-                $ items.append("key")
+                $ items.append(_("key"))
                 z "But...what about my drink?"
                 v "..."
                 z "oh well"
@@ -321,7 +321,7 @@ label locker:
     z "Okay, I made it to the locker. Let's get this thing open"
     menu openLocker:
         "Open Locker":
-            if "key" not in items:
+            if _("key") not in items:
                 z "Uh, I don't have anything to open this with."
                 jump openLocker
             else:
@@ -364,9 +364,9 @@ label lockerTalk:
                         jump attendant
                     "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?":
                         n "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
-                        $ items.remove("key")
+                        $ items.remove(_("key"))
                         "You retrieved the {b}briefcase{/b}"
-                        $ items.append("briefcase")
+                        $ items.append(_("briefcase"))
                         $ locker_level = True
                         jump middle
                     "GIMME THE LOCKER COMBINATION!":
@@ -389,7 +389,7 @@ label surprise:
     scene bg black
     "SURPRISE!!!"
     z "[pet]??"
-    $ items.remove("briefcase")
+    $ items.remove(_("briefcase"))
     scene bg party
     show protagonist at right
     show pet:
