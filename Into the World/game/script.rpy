@@ -355,8 +355,7 @@ label lockerTalk:
             label explain:
                 locker "You look like a nice kid, I'll help ya out."
                 locker "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
-                z "Ok, here goes."
-                scene station
+                z "Ok, here goes." 
                 show barista at slightleft
                 show protagonist at slightright
                 a "Hiya! How can I help you?"
