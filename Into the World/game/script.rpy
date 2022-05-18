@@ -9,10 +9,10 @@ define p = Character("[pet]")
 define g = Character(_("Sad Girl"))
 define dog = Character(_("Dog"))
 define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5, what_size = 35)
-define v = Character(_("Vending Machine"))
+define v = Character(_("Vending Machine"), image="VendingMachine")
 define a = Character(_("Locker Attendant"))
 define items = []
-define locker =Character(_("Locker"))
+define locker =Character(_("Locker"), image="locker")
 define park_level = False
 define street_level = False
 define locker_level = False
@@ -33,10 +33,12 @@ image dog happy= "dog_happy.png"
 image dog mad= "dog_mad.png"
 image flipdog happy = Transform("dog_happy.png", xzoom=-1)
 image street = "Street.png"
-image vending = Transform("vending.png", xzoom=-1)
+image vending = "VendingMachine.png"
+image vending happy = "VendingMachine happy.png"
 image bedroom = "bedroom.png"
-image locker = "rick.png"
-image station = "trainstation.png"
+image locker = "locker happy.png"
+image locker joking = "locker joking.png"
+image station = "blueLocker.jpg"
 image alley = "alley.png"
 image bg black = "#000000"
 image bg party = "party.jpeg"
@@ -260,7 +262,7 @@ label searchPark:
         "Behind the bush":
             "All I see is a broken bottle, an empty cigarette pack, and a bloody ear...eww..Let's look somewhere else"
             jump search
-        "Under a rock":
+        "Under a rock" if _("toy") not in items:
             "I found a beetle...wait, I see a chew toy as well!"
             menu:
                 "Take toy":
@@ -301,7 +303,7 @@ label street:
                 jump vending
             else:
                 $ items.remove(_("change"))
-                v "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
+                v @ happy "MMMMM, DELICIOUS, LOOSE CHANGE. Here, take this."
                 "A {b}key{/b} drops out of the vending machine's {i}mouth{/i}"
                 $ items.append(_("key"))
                 z "But...what about my drink?"
@@ -316,7 +318,9 @@ label street:
 label locker:
     scene station
     show protagonist at slightright
-    show locker at slightleft
+    show locker:
+        xalign 0.34
+        yalign 0.5
     z "Okay, I made it to the locker. Let's get this thing open"
     menu openLocker:
         "Open Locker":
@@ -330,7 +334,7 @@ label locker:
             jump middle
 
 label lockerTalk:
-    locker "Hey kid, what's the big idea? Watch where you're sticking that thing!"
+    locker @ joking "Hey kid, what's the big idea? Watch where you're sticking that thing!"
     z "Oh great...another talking object"
     menu lockerResponse:
         "F*ck this sh*t, I'm out":
