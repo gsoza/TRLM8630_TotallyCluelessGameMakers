@@ -318,7 +318,7 @@ label street:
 label locker:
     scene station
     show protagonist at slightright
-    show locker:
+    show locker joking:
         xalign 0.34
         yalign 0.5
     z "Okay, I made it to the locker. Let's get this thing open"
@@ -334,7 +334,7 @@ label locker:
             jump middle
 
 label lockerTalk:
-    locker @ joking "Hey kid, what's the big idea? Watch where you're sticking that thing!"
+    locker "Hey kid, what's the big idea? Watch where you're sticking that thing!"
     z "Oh great...another talking object"
     menu lockerResponse:
         "F*ck this sh*t, I'm out":
@@ -355,7 +355,7 @@ label lockerTalk:
             label explain:
                 locker "You look like a nice kid, I'll help ya out."
                 locker "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
-                z "Ok, here goes." 
+                z "Ok, here goes."
                 show barista at slightleft
                 show protagonist at slightright
                 a "Hiya! How can I help you?"
@@ -365,6 +365,9 @@ label lockerTalk:
                         n "Maybe try using people words"
                         jump attendant
                     "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?":
+                        show locker:
+                            xalign 0.34
+                            yalign 0.5
                         n "The nice attendant helps you to open the locker and appreciates your normal amount of politeness"
                         $ items.remove(_("key"))
                         "You retrieved the {b}briefcase{/b}"
@@ -372,7 +375,7 @@ label lockerTalk:
                         $ locker_level = True
                         jump middle
                     "GIMME THE LOCKER COMBINATION!":
-                        n "That was intense"
+                        n "That was intense. The attendant kicks you out."
                         jump middle
 label location:
     scene alley
