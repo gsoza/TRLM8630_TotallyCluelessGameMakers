@@ -2,18 +2,17 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define b = Character("Barista")
+define b = Character(_("Barista"))
 define z = Character("[name]", image="protagonist")
-define c = Character("Cop")
 define h = Character("Hobo")
 define p = Character("[pet]")
-define g = Character("Sad Girl")
-define dog = Character("Dog")
+define g = Character(_("Sad Girl"))
+define dog = Character(_("Dog"))
 define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5, what_size = 35)
-define v = Character("Vending Machine")
-define a = Character("Locker Attendant")
+define v = Character(_("Vending Machine"))
+define a = Character(_("Locker Attendant"))
 define items = []
-define locker =Character("Locker")
+define locker =Character(_("Locker"))
 define park_level = False
 define street_level = False
 define locker_level = False
@@ -77,7 +76,8 @@ init python:
     config.overlay_functions.append(display_items_overlay)
 
 init python:
-    credits = ('Programming', 'Christopher Dean'), ('Narrative Design', 'Xinxin Huang'), ('Narrative Design', 'Gary Soza'),('Project Management', 'Baoze Zhang'), ('Character Illustration', 'Marianna Gutierrez'), ('Intro Music: "Delayed Response"', 'Kei Lam'), ('Localization: Spanish', 'Christopher Dean'), ('Localization: Spanish', 'Gary Soza'), ('Localization: Spanish', 'Marianna Gutierrez'), ('Localization: Simplified Chinese', 'Xinxin Huang'),('Localization: Simplified Chinese', 'Baoze Zhang')
+    credits = (_('Programming'), 'Christopher Dean'), (_('Narrative Design'), 'Xinxin Huang'),
+    (_('Narrative Design'), 'Gary Soza'), (_('Project Management'), 'Baoze Zhang'), (_('Character Illustration'), 'Marianna Gutierrez'), (_('Intro Music: "Delayed Response"'), 'Kei Lam'), (_('Localization: Spanish'), 'Christopher Dean'), (_('Localization: Spanish'), 'Gary Soza'), (_('Localization: Spanish'), 'Marianna Gutierrez'), (_('Localization: Simplified Chinese'), 'Xinxin Huang'), (_('Localization: Simplified Chinese'), 'Baoze Zhang')
     credits_s = "{size=60}Credits\n\n"
     c1 = ''
     for c in credits:
@@ -119,7 +119,6 @@ label start:
     #     $protagonist = "Protagonist1.png"
     # label chose_female:
     #     $protagonist = "Protagonist2.png"
-
 
 label story:
 
@@ -450,7 +449,6 @@ label gameWin:
     return
 
 label credits:
-    $ _skipping= False
     $ credits_speed = 25 #scrolling speed in seconds
     scene black #replace this with a fancy background
     with dissolve
