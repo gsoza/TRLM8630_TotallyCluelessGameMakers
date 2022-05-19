@@ -1,59 +1,70 @@
-Thu May 19 13:40:46 2022
+Thu May 19 13:51:32 2022
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.08s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.78s
-Loading save slot metadata. took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.49s
+Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.02s
+Running init code took 0.06s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
+Initial gc. took 0.01s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: "Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.01s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.04s
+Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.06s
+Interface start took 0.04s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: 'ATI Technologies Inc.'
-Renderer: 'AMD Radeon(TM) Graphics'
-Version: '4.6.14830 Compatibility Profile Context 21.10.20.04 27.20.21020.4003'
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 511.69'
 Display Info: None
 Screen sizes: virtual=(800, 600) physical=(1000, 750) drawable=(1000, 750)
 Maximum texture size: 4096x4096
 Calling Ren'Py translate to get untranslated strings
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\common.rpy
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\options.rpy
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\screens.rpy
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\script.rpy
-Calling Ren'Py translate to refresh spanish
-.po -> c:\users\gsoza\appdata\local\temp\tmpd154pj\en_US.UTF-8\LC_MESSAGES\game.mo
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\spanish\common.rpy
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\spanish\options.rpy
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\spanish\screens.rpy
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\spanish\script.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\common.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\options.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\screens.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\script.rpy
+Calling Ren'Py translate to refresh chinese
+.po -> c:\users\91007\appdata\local\temp\tmp4x5fdu\en_US.UTF-8\LC_MESSAGES\game.mo
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\common.rpy
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\options.rpy
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\screens.rpy
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\script.rpy
+Calling Ren'Py translate to get untranslated strings
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\common.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\options.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\screens.rpy
+Parsing  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\script.rpy
+Calling Ren'Py translate to refresh chinese
+.po -> c:\users\91007\appdata\local\temp\tmpeyza32\en_US.UTF-8\LC_MESSAGES\game.mo
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\common.rpy
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\options.rpy
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\screens.rpy
+Updating  C:\Users\91007\Github\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\script.rpy

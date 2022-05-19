@@ -1,8 +1,8 @@
-﻿# TODO: Translation updated at 2022-05-19 13:40
+﻿# TODO: Translation updated at 2022-05-19 13:52
 
 translate chinese strings:
 
     # game/options.rpy:15
     old "Into the World"
-    new ""
+    new "走进世界"
 
