@@ -4,7 +4,7 @@
 # name of the character.
 define b = Character(_("Barista"))
 define z = Character("[name]", image="protagonist")
-define h = Character("Hobo")
+define h = Character("Mom")
 define p = Character("[pet]")
 define g = Character(_("Sad Girl"))
 define dog = Character(_("Dog"))
@@ -25,7 +25,7 @@ image barista = "Barista.png"
 image cop = "police.png"
 image apartmentExterior = "Apartment_exterior.png"
 image park = "park.png"
-image hobo = Transform("hobo.png", xzoom=-1)
+image hobo = Transform("Mother.png", xzoom=-1)
 image girl sad = "girl_sad.png"
 image girl happy = "girl_happy.png"
 image girl mad = "girl_mad.png"
@@ -315,7 +315,7 @@ label lockerTalk:
     locker "Hey kid, what's the big idea? Watch where you're sticking that thing!"
     z "Oh great...another talking object"
     menu lockerResponse:
-        "F*ck this sh*t, I'm out":
+        "Forget this, I'm out":
             play music "audio/fuck.mp3"
             n "yeah you gangsta, now come back when you wanna play nice"
             jump middle
@@ -385,7 +385,7 @@ label surprise:
         xalign 0.35
         yalign 1.0
     show dog happy at slightleft
-    z "What is all this?"
+    z "Mom?? What is all this?"
     h "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
     h "So we set up this whole challenge and arranged this suprise party for you!"
     z happy "Well that was definitely a strange adventure, the world is a different place, but I admit it was a lot of fun. I'm glad [pet] is okay!"
@@ -397,7 +397,7 @@ label win:
     n "Well done! How bout some coffee?"
     scene coffee
     play music "audio/coffee.mp3"
-    show attendant at slightleft
+    show barista at slightleft
     show protagonist at slightright
     b "Hi, welcome to Zombucks, how can I help you?"
     z "Didn't I just see you at...uh...nevermind"
