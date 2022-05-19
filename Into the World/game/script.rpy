@@ -8,7 +8,7 @@ define h = Character("Hobo")
 define p = Character("[pet]")
 define g = Character(_("Sad Girl"))
 define dog = Character(_("Dog"))
-define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5, what_size = 35)
+define n = Character(None, what_font="Luminari.ttf", what_xalign=0.5, window_xalign=0.5, window_yalign=0.5, what_text_align=0.5, what_size = 30)
 define v = Character(_("Vending Machine"), image="VendingMachine")
 define a = Character(_("Locker Attendant"))
 define items = []
