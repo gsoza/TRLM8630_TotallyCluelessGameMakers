@@ -406,15 +406,15 @@ label surprise:
         yalign 1.0
     show dog happy at slightleft
     z "What is all this?"
-    h "We arranged this suprise party challenge for you."
     h "We were deeply concerned about you being all alone all the time and wanted you to get out and live again."
-    z "It was definitely a strange adventure, but was a lot of fun. I'm glad [pet] is okay!"
+    h "So we set up this whole challenge and arranged this suprise party for you!"
+    z happy "Well that was definitely a strange adventure, the world is a different place, but I admit it was a lot of fun. I'm glad [pet] is okay!"
     p "*happy noises*"
     jump win
 
 
 label win:
-    n "yay you got the thing and everyone dies, how bout some coffee?"
+    n "Well done! How bout some coffee?"
     scene coffee
     play music "audio/coffee.mp3"
     show barista at slightleft
