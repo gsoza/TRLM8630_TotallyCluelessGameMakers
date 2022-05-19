@@ -20,7 +20,8 @@ define protag = ""
 
 image protagonist = Transform("[protag].png", xzoom=-1)
 image protagonist happy = Transform("[protag]_happy.png", xzoom=-1)
-image barista = "barista.png"
+image attendant = "Attendant.png"
+image barista = "Barista.png"
 image cop = "police.png"
 image apartmentExterior = "Apartment_exterior.png"
 image park = "park.png"
@@ -98,7 +99,6 @@ label start:
     $ name = name.strip() or "Gary"
     $ pet = renpy.input(_("What is the last thing you ate?"))
     $ pet = pet.strip() or _("Vitamin D")
-    call screen credits
 
 label story:
 
@@ -334,7 +334,7 @@ label lockerTalk:
                 locker "You look like a nice kid, I'll help ya out."
                 locker "Alls ya gotta do is go up to that guy at the stand over there. He can give ya the combination. Easy right?"
                 z "Ok, here goes."
-                show barista at slightleft
+                show attendant at slightleft
                 show protagonist at slightright
                 a "Hiya! How can I help you?"
                 menu attendant:
@@ -397,7 +397,7 @@ label win:
     n "Well done! How bout some coffee?"
     scene coffee
     play music "audio/coffee.mp3"
-    show barista at slightleft
+    show attendant at slightleft
     show protagonist at slightright
     b "Hi, welcome to Zombucks, how can I help you?"
     z "Didn't I just see you at...uh...nevermind"

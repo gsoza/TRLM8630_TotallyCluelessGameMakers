@@ -1,66 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'blueLocker.png'>:
-  File "game/script.rpy", line 324, in script
-    z "Okay, I made it to the locker. Let's get this thing open"
-IOError: Couldn't find file 'blueLocker.png'.
+While running game code:
+  File "game/script.rpy", line 351, in script
+    $ items.remove(_("key"))
+  File "game/script.rpy", line 351, in <module>
+    $ items.remove(_("key"))
+ValueError: list.remove(x): x not in list
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 324, in script
-    z "Okay, I made it to the locker. Let's get this thing open"
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 721, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/exports.py", line 1419, in say
-    who(what, *args, **kwargs)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/character.py", line 1249, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/character.py", line 901, in do_display
-    **display_args)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/character.py", line 647, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 3325, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 3839, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/core.py", line 2565, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/layout.py", line 826, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/layout.py", line 826, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/layout.py", line 826, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/transform.py", line 733, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/im.py", line 625, in render
-    return cache.get(self, render=True)
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/im.py", line 287, in get
-    surf = image.load()
-  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/display/im.py", line 706, in load
-    raise e
-IOError: Couldn't find file 'blueLocker.png'.
+  File "game/script.rpy", line 351, in script
+    $ items.remove(_("key"))
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 351, in <module>
+    $ items.remove(_("key"))
+  File "/Users/cdean248345/renpy-7.4.11-sdk/renpy/python.py", line 875, in do_mutation
+    return method(self, *args, **kwargs)
+ValueError: list.remove(x): x not in list
 
 Darwin-21.4.0-x86_64-i386-64bit
 Ren'Py 7.4.11.2266
 Into the World 1.0
-Wed May 18 15:02:12 2022
+Wed May 18 18:56:34 2022
