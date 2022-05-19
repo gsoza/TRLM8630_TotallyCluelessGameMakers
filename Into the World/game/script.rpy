@@ -77,23 +77,6 @@ init python:
             ui.text(inventory_show)
     config.overlay_functions.append(display_items_overlay)
 
-init python:
-    credits = (_('Programming'), 'Christopher Dean'), (_('Narrative Design'), 'Xinxin Huang'),
-    (_('Narrative Design'), 'Gary Soza'), (_('Project Management'), 'Baoze Zhang'), (_('Character Illustration'), 'Marianna Gutierrez'), (_('Intro Music: "Delayed Response"'), 'Kei Lam'), (_('Localization: Spanish'), 'Christopher Dean'), (_('Localization: Spanish'), 'Gary Soza'), (_('Localization: Spanish'), 'Marianna Gutierrez'), (_('Localization: Simplified Chinese'), 'Xinxin Huang'), (_('Localization: Simplified Chinese'), 'Baoze Zhang')
-    credits_s = "{size=60}Credits\n\n"
-    c1 = ''
-    for c in credits:
-        if not c1==c[0]:
-            credits_s += "\n{size=40}" + c[0] + "\n"
-        credits_s += "{size=60}" + c[1] + "\n"
-        c1=c[0]
-    credits_s += "\n{size=40}Engine\n{size=60}Ren'py\n6.15.7.374" #Don't forget to set this to your Ren'py version
-
-init:
-#    image cred = Text(credits_s, font="myfont.ttf", text_align=0.5) #use this if you want to use special fonts
-    image cred = Text(credits_s, text_align=0.5)
-    image theend = Text("{size=80}The end", text_align=0.5)
-    image thanks = Text("{size=80}Thanks for Playing!", text_align=0.5)
 
 transform slightleft:
     xalign 0.25
@@ -115,12 +98,7 @@ label start:
     $ name = name.strip() or "Gary"
     $ pet = renpy.input(_("What is the last thing you ate?"))
     $ pet = pet.strip() or _("Vitamin D")
-
-    # show screen choose
-    # label chose_male:
-    #     $protagonist = "Protagonist1.png"
-    # label chose_female:
-    #     $protagonist = "Protagonist2.png"
+    call screen credits
 
 label story:
 
@@ -173,12 +151,6 @@ label middle:
     scene apartmentExterior
     show protagonist at slightright
     menu decision:
-         "Check the Park":
-             if park_level:
-                 "I don't think I need to go there again"
-                 jump decision
-             else:
-                 jump park
          "Head down the street":
              if street_level:
                 "I don't think I need to go there again"
@@ -191,6 +163,12 @@ label middle:
                 jump decision
              else:
                 jump locker
+         "Check the Park":
+             if park_level:
+                 "I don't think I need to go there again"
+                 jump decision
+             else:
+                 jump park
          "Go to the location":
              if _("briefcase") in items:
                 jump location
@@ -365,6 +343,7 @@ label lockerTalk:
                         n "Maybe try using people words"
                         jump attendant
                     "(stuttering) Can you..h..help me t..t..to open locker 420 p..please?":
+                        hide attendant
                         show locker:
                             xalign 0.34
                             yalign 0.5
@@ -396,6 +375,7 @@ label surprise:
     z "[pet]??"
     $ items.remove(_("briefcase"))
     scene bg party
+    play music "audio/party.mp3"
     show protagonist at right
     show pet:
         xalign 0.75
@@ -448,28 +428,66 @@ label win:
 
 label gameOver:
     n "You have failed as a human. YOU LOSE"
+    call screen credits
     return
 label gameWin:
     n "You have regained your humanity. YOU WIN"
-    call credits
+    call screen credits
     return
 
-label credits:
-    $ credits_speed = 25 #scrolling speed in seconds
-    scene black #replace this with a fancy background
-    with dissolve
-    show theend:
-        yanchor 0.5 ypos 0.5
-        xanchor 0.5 xpos 0.5
-    with dissolve
-    with Pause(3)
-    hide theend
-    show cred at Move((0.5, 5.0), (0.5, 0.0), credits_speed, repeat=False, bounce=False, xanchor="center", yanchor="bottom")
-    with Pause(credits_speed)
-    show thanks:
-        yanchor 0.5 ypos 0.5
-        xanchor 0.5 xpos 0.5
-    with dissolve
-    with Pause(3)
-    hide thanks
-    return
+transform credits_scroll(speed):
+    ypos 720
+    linear speed ypos -1020
+
+## Credits screen.
+
+screen credits():
+    style_prefix "credits"
+
+    add "#000"
+
+    frame at credits_scroll(5.0):
+        background None
+        xalign 0.5
+
+        vbox:
+            label "Credits"
+
+            null height 20
+
+            hbox:
+                align (0.25, 1.75)
+                spacing 50
+                vbox:
+                    spacing 50
+
+                    text "Programming"
+                    text "Narrative Design \n\n"
+                    text "Illustration"
+                    text "Project Management"
+                    text "Localization: Spanish\n\n"
+                    text "Localization: Simplified Chinese"
+
+                vbox:
+                    spacing 50
+                    text "Christopher Dean"
+                    text "Xinxin Huang \nGary Soza \nChristopher Dean"
+                    text "Marianna Guedez Forgiarini"
+                    text "Baoze Zhang"
+                    text "Gary Soza \n Christopher Dean \n Marianna Guedez Forgiarini"
+                    text "Xinxin Huang \n Baoze Zhang"
+
+
+
+style credits_hbox:
+    # spacing 300
+    ysize 50
+
+style credits_label:
+    xalign 0.5
+
+# style credits_text:
+#     xanchor 0.5
+
+
+## Show credits screen.

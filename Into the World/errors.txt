@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 470: expected 'comma or end of line' not found.
-    $ renpy.pause(5.0, hard=True)
-    ^
+File "game/script.rpy", line 459: u'text1' is not a keyword argument or valid child for the hbox statement.
+    text1 "Programming" xalign 0.25
+         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Tue May 17 12:50:57 2022
+Wed May 18 18:33:44 2022
