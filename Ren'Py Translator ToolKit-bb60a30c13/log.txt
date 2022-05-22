@@ -1,40 +1,40 @@
-Thu May 19 14:22:18 2022
+Sun May 22 10:38:21 2022
 Windows-10-10.0.22000
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.09s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.81s
-Loading save slot metadata. took 0.00s
+Bootstrap to the start of init.init took 0.16s
+Early init took 0.02s
+Loader init took 0.03s
+Loading error handling took 0.08s
+Loading script took 1.70s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.02s
+Running init code took 0.21s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
+Initial gc. took 0.03s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.04s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -46,14 +46,3 @@ Version: '4.6.14830 Compatibility Profile Context 21.10.20.04 27.20.21020.4003'
 Display Info: None
 Screen sizes: virtual=(800, 600) physical=(1000, 750) drawable=(1000, 750)
 Maximum texture size: 4096x4096
-Calling Ren'Py translate to get untranslated strings
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\common.rpy
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\options.rpy
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\screens.rpy
-Parsing  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\pot\script.rpy
-Calling Ren'Py translate to refresh chinese
-.po -> c:\users\gsoza\appdata\local\temp\tmphhqo_0\en_US.UTF-8\LC_MESSAGES\game.mo
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\common.rpy
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\options.rpy
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\screens.rpy
-Updating  C:\Users\gsoza\Documents\GitHub\TRLM8630_TotallyCluelessGameMakers\Into the World\game\tl\chinese\script.rpy
